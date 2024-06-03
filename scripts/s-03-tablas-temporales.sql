@@ -1,5 +1,5 @@
 --@Autor(es): Jaime Manuel Miranda Serrano y Diego Adrian Del Razo Sanchez
---@Fecha creación: 02/04/2024
+--@Fecha creación: 02/06/2024
 --@Descripción: Creación de tablas temporales
 
 --Tabla temporal para que los usuarios puedan consultar estadisticas de las 

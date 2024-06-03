@@ -2,11 +2,6 @@
 --@Fecha creación:  17/04/2024
 --@Descripción:     Creacion de entidadades del caso de estudio global home
 
-
-
-Prompt Iniciando con md_proy_admin
-connect md_proy_admin/admin 
-
 -- 
 -- table: usuario 
 --
@@ -344,5 +339,3 @@ create table vivienda_renta_clabe(
   	references clabe(clabe_id)
 );
   
-Prompt Listo!
-disconnect

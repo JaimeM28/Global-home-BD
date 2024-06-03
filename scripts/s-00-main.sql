@@ -31,4 +31,12 @@ end;
 /
 
 @s-01-usuarios.sql
+
+Prompt Iniciando con md_proy_admin
+connect md_proy_admin/admin 
+
 @s-02-entidades.sql
+@s-03-tablas-temporales.sql
+@s-04-tablas-externas.sql
+
+disconnect
