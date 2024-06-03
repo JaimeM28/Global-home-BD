@@ -88,7 +88,9 @@ create table vivienda_venta(
   numero_catastral        varchar2(18)     not null,
   folio_escritura         varchar2(18)     not null,
   avaluo_propiedad_pdf    blob             not null,
-  importe_comision        number(10,2)     not null,
+  importe_comision as (
+    precio*0.05
+  )virtual,
   precio                  number(12,2)     not null,
   clabe_pago              number(18,0)     not null,
   constraint vivienda_venta_vivienda_id_fk foreign key (vivienda_id)
