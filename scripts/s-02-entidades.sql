@@ -1,6 +1,6 @@
---@Autor(es):       Diego Del Razo y Jaime Miranda
+--@Autor(es):       Jaime Manuel Miranda Serrano y Diego Adrian Del Razo Sanchez
 --@Fecha creación:  17/04/2024
---@Descripción:    Archivo DDL proyecto caso de estudio Global Home
+--@Descripción:     Creacion de entidadades del caso de estudio global home
 
 
 
