@@ -22,7 +22,8 @@ create table usuario(
   contrasenia            varchar2(15)     not null,
   constraint usuario_pk primary key (usuario_id),
   constraint usuario_nombre_usuario_chk check(length(nombre_usuario) = 10),
-  constraint usuario_contrasenia_chk check(length(contrasenia) between 8 and 10)
+  constraint usuario_contrasenia_chk check(length(contrasenia) between 8 and 10),
+  constraint usuario_correo_uk unique(correo)
 );
 
 -- 
@@ -208,7 +209,8 @@ create table tarjeta_credito(
   constraint tarjeta_credito_usuario_id_fk foreign key(usuario_id)
   	references usuario(usuario_id),
   constraint tarjeta_credito_pk primary key (usuario_id),
-  constraint tarjeta_credito_numero_seguridad_chk check(length(numero_seguridad)=4)
+  constraint tarjeta_credito_numero_seguridad_chk check(length(numero_seguridad)=4),
+  constraint tarjeta_credito_mes_expiracion_chk check(mes_expiracion between 1 and 12)
 );
 
 -- 
@@ -260,12 +262,12 @@ create table alquiler(
 
 Prompt Creando tabla alquiler_calificacion
 create table alquiler_calificacion(
-  alquiler_calificacion_id number(10,0) not null,
-  calificacion       number(1, 0)       not null,
-  fecha              varchar2(40)       not null,
-  descripcion        varchar2(200)      not null,
-  usuario_id                            not null,
-  alquiler_id                           not null,
+  alquiler_calificacion_id number(10,0)           not null,
+  calificacion       number(1, 0)                 not null,
+  fecha              date         default sysdate not null,
+  descripcion        varchar2(200)                not null,
+  usuario_id                                      not null,
+  alquiler_id                                     not null,
   constraint alquiler_calificacion_pk primary key (alquiler_calificacion_id),
   constraint alquiler_calificacion_alquiler_id_fk foreign key (alquiler_id)
   	references alquiler(alquiler_id),
@@ -296,12 +298,12 @@ create table pago(
 
 Prompt Creando tabla contrato_renta
 create table contrato_renta(
-  contrato_renta_id       number(10, 0)    not null,
-  folio                   varchar2(8)      not null,
-  fecha                   date             not null,
-  clausulas_firmas_pdf    blob             not null,
-  vivienda_id                              not null,
-  usuario_id                               not null,
+  contrato_renta_id       number(10, 0)         not null,
+  folio                   varchar2(8)           not null,
+  fecha                   date default sysdate  not null,
+  clausulas_firmas_pdf    blob                  not null,
+  vivienda_id                                   not null,
+  usuario_id                                    not null,
   constraint contrato_renta_pk primary key(contrato_renta_id),
   constraint contrato_renta_vivienda_id_fk foreign key(vivienda_id)
   	references vivienda_renta(vivienda_id),
