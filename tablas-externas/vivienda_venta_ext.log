@@ -1,0 +1,40 @@
+
+
+ LOG file opened at 06/04/24 12:35:07
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/04/24 12:35:07
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
