@@ -39,4 +39,5 @@ connect md_proy_admin/admin
 @s-03-tablas-temporales.sql
 @s-04-tablas-externas.sql
 
+@s-07-sinonimos.sql
 disconnect
