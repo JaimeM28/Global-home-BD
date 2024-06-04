@@ -40,4 +40,5 @@ connect md_proy_admin/admin
 @s-04-tablas-externas.sql
 
 @s-07-sinonimos.sql
+@s-08-vistas.sql
 disconnect

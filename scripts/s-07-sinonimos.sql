@@ -29,8 +29,8 @@ Prompt Iniciando con md_proy_admin
 connect md_proy_admin/admin
 
 Prompt Creando sinonimos privados con PL/SQL 
-set serveroutput on 
 
+set serveroutput on 
 declare 
   cursor cur_tablas is
     select table_name 
