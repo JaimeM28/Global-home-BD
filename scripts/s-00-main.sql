@@ -41,4 +41,5 @@ connect md_proy_admin/admin
 @s-05-secuencias.sql
 @s-07-sinonimos.sql
 @s-08-vistas.sql
+@s-09-carga-inicial.sql
 disconnect
