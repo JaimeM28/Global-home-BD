@@ -15,10 +15,9 @@ create table usuario(
   apellido_paterno       varchar2(40)     not null,
   apellido_materno       varchar2(40)     null,
   contrasenia            varchar2(15)     not null,
-  constraint usuario_pk primary key (usuario_id),
+  constraint usuario_pk primary key(usuario_id),
   constraint usuario_contrasenia_chk check(length(contrasenia) between 8 and 10),
-  constraint usuario_correo_uk unique(correo),
-  constraint usuario_nombre_usuario_uk unique(nombre_usuario)
+  constraint usuario_correo_uk unique(correo)
 );
 
 -- 
@@ -99,7 +98,6 @@ create table vivienda_venta(
   constraint vivienda_venta_vivienda_id_fk foreign key (vivienda_id)
     references vivienda(vivienda_id),
   constraint vivienda_venta_pk primary key (vivienda_id),
-  constraint vivienda_venta_numero_catastral_uk unique(numero_catastral),
   constraint vivienda_venta_folio_escritura_uk unique(folio_escritura),
   constraint vivienda_venta_usuario_id_fk foreign key(usuario_id)
     references usuario(usuario_id)
@@ -259,8 +257,7 @@ create table alquiler(
   constraint alquiler_vivienda_id_fk foreign key (vivienda_id)
   	references vivienda_vacacion(vivienda_id),
   constraint alquiler_usuario_id_fk foreign key(usuario_id)
-  	references usuario(usuario_id),
-  constraint alquiler_folio_chk unique(folio)
+  	references usuario(usuario_id)
 );
 
 -- 
@@ -315,8 +312,7 @@ create table contrato_renta(
   constraint contrato_renta_vivienda_id_fk foreign key(vivienda_id)
   	references vivienda_renta(vivienda_id),
   constraint contrato_renta_usuario_id_fk foreign key(usuario_id)
-  	references usuario(usuario_id),
-  constraint contrato_renta_folio_uk unique(folio)
+  	references usuario(usuario_id)
 );
 
 
@@ -330,7 +326,8 @@ create table clabe(
   clabe_id         number(5, 0)     not null,
   clabe            number(18, 0)    not null,
   constraint clabe_pk primary key (clabe_id),
-  constraint clabe_clabe_chk check(length(clabe)= 18)
+  constraint clabe_clabe_chk check(length(clabe)= 18),
+  constraint clabe_clabe_uk unique(clabe)
 );
 
 -- 
