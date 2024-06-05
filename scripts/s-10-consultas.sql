@@ -60,31 +60,6 @@ WHERE status_descripcion = 'Disponible';
 
 -- 7. Consulta que involucra el uso de una tabla externa
 -- Nota: Asumiendo que se ha configurado una tabla externa previamente
--- Configuración de ejemplo:
--- CREATE TABLE external_vivienda (
---   vivienda_id NUMBER,
---   direccion VARCHAR2(400),
---   es_renta NUMBER,
---   es_venta NUMBER,
---   es_vacacion NUMBER
--- )
--- ORGANIZATION EXTERNAL (
---   TYPE ORACLE_LOADER
---   DEFAULT DIRECTORY ext_tab_dir
---   ACCESS PARAMETERS (
---     RECORDS DELIMITED BY NEWLINE
---     FIELDS TERMINATED BY ','
---     MISSING FIELD VALUES ARE NULL
---     (
---       vivienda_id NUMBER,
---       direccion CHAR(400),
---       es_renta NUMBER,
---       es_venta NUMBER,
---       es_vacacion NUMBER
---     )
---   )
---   LOCATION ('vivienda_data.csv')
--- );
 
 SELECT * 
 FROM external_vivienda
