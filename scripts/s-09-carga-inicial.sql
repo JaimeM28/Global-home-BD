@@ -201,7 +201,7 @@ insert into usuario (usuario_id, correo, nombre_usuario, nombre, apellido_patern
 insert into usuario (usuario_id, correo, nombre_usuario, nombre, apellido_paterno, apellido_materno, contrasenia) values (usuario_seq.nextval, 'dgolborne2o@tmall.com', 'curioso', 'Natalia', 'Pacheco', 'Soler', 'S6127gpM6');
 insert into usuario (usuario_id, correo, nombre_usuario, nombre, apellido_paterno, apellido_materno, contrasenia) values (usuario_seq.nextval, 'jgodden2p@craigslist.org', 'steve', 'Paola', 'Moreno', 'Marín', 'icB3PQ4YTn');
 
--- Inserciones en la tabla usario
+-- Inserciones en la tabla vivienda
 Prompt Insertando datos en vivienda
 --VENTA
 Prompt VENTA
@@ -246,6 +246,7 @@ insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, desc
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 41.3458989, 19.5657349, '0 Charing Cross Trail', 13, 'Residencia con patio y barbacoa', 1, 0, 0, to_date('25/01/2019','dd/mm/yyyy'), 3, 17);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 26.3358903, 127.875104, '07409 Oxford Circle', 18, 'Casa con acceso directo al lago', 1, 0, 0, to_date('23/12/2018','dd/mm/yyyy'), 3, 21);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 43.7041519, 43.3264539, '9931 Shelley Road', 4, 'Casa con jardín zen y estanque', 1, 0, 0, to_date('08/09/2021','dd/mm/yyyy'), 3, 39);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -143.7041519, -33.432524, '314 Lomas Grande', 4, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('03/02/2020','dd/mm/yyyy'), 3, 1);
 --VACACION
 Prompt VACACION
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 10.3827887, -9.3118282, '7 Eagle Crest Point', 3, 'Residencia con patio y barbacoa', 0, 1, 0, to_date('27/10/2023','dd/mm/yyyy'), 3, 6);
@@ -312,3 +313,107 @@ insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, desc
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -7.1550724, 108.1498006, '2 Bluejay Point', 8, 'Duplex con piscina comunitaria', 0, 1, 1, to_date('10/08/2020','dd/mm/yyyy'), 4, 42);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 45.0386871, 3.103119, '6 Twin Pines Street', 16, 'Chalet de lujo con cinco dormitorios', 0, 1, 1, to_date('01/09/2020','dd/mm/yyyy'), 1, 32);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 13.952977, 121.341718, '1 Scofield Drive', 3, 'Loft moderno en barrio artístico', 0, 1, 1, to_date('10/06/2019','dd/mm/yyyy'), 6, 13);
+
+-- Inserciones en la tabla numero_catastral
+Prompt Insertando datos en vivienda_venta
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (1, 'aryLpk1ey4J1Mm1r2w', '9BRy0CUv591MrOn8DN', empty_blob(), 4845890.81, '304367496153462062', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (2, 'f0Q5ZKNuv133f8n508', '81I191ow9q5y3kPeD8', empty_blob(), 4522961.36, '706910463377490332', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (3, 'DH55bPbluun6hX49fp', 'E93zRzG3bG1pZzLFFW', empty_blob(), 8668735.43, '799310020730423706', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (4, 'mq8AfLQ32WiP46hMQk', '98rK6WYtnR75586n7H', empty_blob(), 7138660.5, '760100047554562736', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (5, '7J1LNft1X0dUpJ0jGO', 'w3Vlb9p1D2B0U3KNFl', empty_blob(), 3986504.08, '267902268497739598', 54);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (6, 'Sca515G0E784467Xy2', 'ynb9Qr5FD9Dg74IVz4', empty_blob(), 7648399.91, '859136833328580966', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (7, 'gwqk0ucBb94BsTCQh0', 'Il580T94bh1l02q35J', empty_blob(), 5355593.71, '193084128102791223', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (8, 'YUGJkfN2GH2549cI74', 'PnKCjOG3n5c18jJgmD', empty_blob(), 6330579.76, '084118481597418127', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (9, 'Sw0lxivlzc1e9oL4ui', 'b3W6g14W4fs4yY6pte', empty_blob(), 8995332.73, '332632714143612233', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (10, '6TW7g39pz00omcV55w', 'u9fJ0x5PLi5Oa0R911', empty_blob(), 7560664.17, '395043908317079007', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (11, 'BSB3Sp4YDAtH7zL4N7', 'woRw4WN0xBHCJSE9ZF', empty_blob(), 2079617.32, '075672186606215094', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (12, 'Q1zy601UQ207Lk5aT0', 's71PbJj685LS8aCVF7', empty_blob(), 7440454.09, '950648422620516957', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (13, '9zu1k4cHL3n13LTYSf', 'A723R38DdMZ58COq5z', empty_blob(), 3879001.89, '499764905083342981', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (14, 'AR7a955eODw0ZPm83A', '22FzzX9wYZCU61pOZd', empty_blob(), 5026061.47, '452262712013516416', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (15, 'puv57U06vbtTJ40Kmc', 'aonl5PSm6Ykj38518l', empty_blob(), 9417092.1, '918429565526421160', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (16, 'j184Rx4EH5IWmeo5bq', 'DGe95zSl5QamfZ5doR', empty_blob(), 8731240.31, '418543370007132207', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (17, 'YGJnyUI6ta5199YFeB', 'JiJ9fkgqEh3o0vm8E0', empty_blob(), 1147082.71, '849980927993578238', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (18, '7zRiShRcWQ4zu4Vsx4', '8o5r8035Fpfow5dBow', empty_blob(), 8721999.17, '678909665620912433', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (19, 'MmHPf4369a4IwIL556', '340Z27q5BGvS8FD5R2', empty_blob(), 2568140.22, '186552704342998875', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (20, 'ZWTH0j8KHFf8C66h1e', 'hojzYpU3Sy5dtdtCil', empty_blob(), 5139123.4, '764055504192357519', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (21, '94HP3PZ5RWteX5e4xh', 'p1fOVP08Fjm88usMLn', empty_blob(), 3954619.11, '960183892954258798', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (22, 'X79We8BviLd4HF1D3T', '44H8dBq6qW0hd7j0zo', empty_blob(), 2499910.26, '090606155271288939', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (23, '9N7nY9ni5QkG6jmp18', '4r3ZED878yO3WW30vZ', empty_blob(), 2153276.64, '520965178548161897', 67);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (24, 'G4d5BzzMLDLj34gSxn', '89V4uySkX6Ynbh188j', empty_blob(), 6600423.13, '759432189604521917', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (25, 'g4OjSUnoR0AInfQOLF', 'vEkS3UMVoasQOwH871', empty_blob(), 8139598.9, '671196085736505871', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (26, 'VWGx07raP60g8FOh4v', 'W28gKdPAOtTdrI57n1', empty_blob(), 9288668.81, '356943856575994065', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (27, 'Z2e1b2EyZkl663567y', 'J28b4B63dri8EeW9PQ', empty_blob(), 5895482.88, '330638014693199698', 81);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (28, 'CjCfs38tS3XHCyp8E3', 'xo84bBd8zIpv0oAN9m', empty_blob(), 8422761.38, '145688724948843721', 50);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (29, '2k8nY8sZhD9s4WQ397', 'r8V2jYpu58846VM1t5', empty_blob(), 5871671.92, '506227332382073651', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (30, 'oLLuCw64zrQ7SS46Cd', 'fam05G80431A0ycySt', empty_blob(), 7711964.32, '416861766770778854', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (31, 'CA1H4mT41qLaW6N5xn', 'p460Qftg31R020Ay2S', empty_blob(), 3187105.22, '149876755612730451', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (32, 'cx7nu9x1S5CMxql3X7', 'BB2zg6ak0bl3slM0wa', empty_blob(), 880514.99, '650633546932618595', 88);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (33, 'uBGIffx412nP59OP8w', 'hJ9T69mu8Mf0z97e9u', empty_blob(), 4918723.71, '417943266403705141', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (34, 'G1JQ44c1pDG1c0OwNN', 'kGV88P9SMfu27eu25b', empty_blob(), 1132080.25, '148054701688089661', 48);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (35, 'Cq6De52BfIxf11Iosl', 'aHB75v4rY55ymQWSiy', empty_blob(), 4848294.41, '588182291322964780', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (36, 'iQthPIDu2UMLGn5q3s', 'Wdv2G1643WC2vR67KE', empty_blob(), 8634144.34, '346683474848179736', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (37, 'lGgEk55J6t744353F1', 'dR4H1PxDlINX89M9yX', empty_blob(), 8093345.25, '923611048091972334', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (38, 'lFRodLoHG5o6LvYDD6', 'drixFjiic0W722Cg2s', empty_blob(), 3891858.35, '772757537371689810', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (39, 'Iy50L27R5pzQUU9rJZ', '35A0L2vafL2m21Hg5r', empty_blob(), 7879722.72, '085654130281044746', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (40, 'Mc5iLX004R2oezbPQk', 'HkPI6gHfPNSy1cJQvX', empty_blob(), 1459329.36, '307393006184664319', 64);
+
+-- Inserciones en la tabla numero_catastral
+Prompt Insertando datos en vivienda_renta
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (21, 22731.04, 2);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (22, 31915.23, 11);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (23, 8398.79, 3);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (24, 4399.06, 10);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (25, 30226.54, 3);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (26, 9079.63, 3);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (27, 31582.31, 11);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (28, 25793.38, 4);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (29, 25203.26, 9);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (30, 6903.84, 7);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (31, 22701.6, 7);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (32, 22847.64, 11);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (33, 12221.17, 1);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (34, 5378.0, 8);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (35, 23079.12, 2);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (36, 16732.74, 9);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (37, 31867.53, 1);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (38, 14751.45, 5);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (39, 14122.54, 6);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (40, 5723.12, 2);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (61, 30149.44, 11);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (62, 34133.47, 9);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (63, 11114.97, 1);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (64, 4727.88, 5);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (65, 29322.11, 2);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (66, 6207.35, 4);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (67, 28945.88, 8);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (68, 16782.27, 1);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (69, 7860.19, 9);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (70, 8107.45, 11);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (71, 18008.98, 5);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (72, 32842.91, 11);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (73, 27331.43, 12);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (74, 24237.25, 2);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (75, 10797.68, 6);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (76, 34175.12, 2);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (77, 8908.61, 3);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (78, 5620.51, 3);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (79, 34518.81, 1);
+insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (80, 33825.48, 5);
+
+
+--Inserciones en la tabla vivienda_tipo_servicio
+Prompt Dando servicios básicos a todas las viviendas
+begin
+  for vivienda_id in 1..99 loop
+    -- electricidad
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 1, vivienda_id);
+    -- agua 
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 2, vivienda_id); 
+    -- drenaje
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 3, vivienda_id); 
+  end loop;
+end;
+/
