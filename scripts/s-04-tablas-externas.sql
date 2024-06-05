@@ -5,7 +5,32 @@
 --Global home recibe un reporte de viviendas embargadas por parte del gobierno
 --para compararlas con los usuarios que tienen viviendas en venta y eliminarlas si
 --aparecen en el reporte 
+
 Prompt Creando tabla vivienda_venta_ext
+  -- CREATE TABLE external_vivienda (
+--   vivienda_id NUMBER,
+--   direccion VARCHAR2(400),
+--   es_renta NUMBER,
+--   es_venta NUMBER,
+--   es_vacacion NUMBER
+-- )
+-- ORGANIZATION EXTERNAL (
+--   TYPE ORACLE_LOADER
+--   DEFAULT DIRECTORY ext_tab_dir
+--   ACCESS PARAMETERS (
+--     RECORDS DELIMITED BY NEWLINE
+--     FIELDS TERMINATED BY ','
+--     MISSING FIELD VALUES ARE NULL
+--     (
+--       vivienda_id NUMBER,
+--       direccion CHAR(400),
+--       es_renta NUMBER,
+--       es_venta NUMBER,
+--       es_vacacion NUMBER
+--     )
+--   )
+--   LOCATION ('vivienda_data.csv')
+-- );
 create table  vivienda_venta_ext(
   numero_catastral  varchar2(18),
   folio_escritura   varchar2(18),
