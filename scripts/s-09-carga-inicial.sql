@@ -314,7 +314,7 @@ insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, desc
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 45.0386871, 3.103119, '6 Twin Pines Street', 16, 'Chalet de lujo con cinco dormitorios', 0, 1, 1, to_date('01/09/2020','dd/mm/yyyy'), 1, 32);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 13.952977, 121.341718, '1 Scofield Drive', 3, 'Loft moderno en barrio artístico', 0, 1, 1, to_date('10/06/2019','dd/mm/yyyy'), 6, 13);
 
--- Inserciones en la tabla numero_catastral
+-- Inserciones en la tabla vivienda_venta
 Prompt Insertando datos en vivienda_venta
 insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (1, 'aryLpk1ey4J1Mm1r2w', '9BRy0CUv591MrOn8DN', empty_blob(), 4845890.81, '304367496153462062', null);
 insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (2, 'f0Q5ZKNuv133f8n508', '81I191ow9q5y3kPeD8', empty_blob(), 4522961.36, '706910463377490332', null);
@@ -357,7 +357,7 @@ insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, aval
 insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (39, 'Iy50L27R5pzQUU9rJZ', '35A0L2vafL2m21Hg5r', empty_blob(), 7879722.72, '085654130281044746', null);
 insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (40, 'Mc5iLX004R2oezbPQk', 'HkPI6gHfPNSy1cJQvX', empty_blob(), 1459329.36, '307393006184664319', 64);
 
--- Inserciones en la tabla numero_catastral
+-- Inserciones en la tabla vivienda_renta
 Prompt Insertando datos en vivienda_renta
 insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (21, 22731.04, 2);
 insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (22, 31915.23, 11);
@@ -400,6 +400,68 @@ insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (78
 insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (79, 34518.81, 1);
 insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (80, 33825.48, 5);
 
+-- Inserciones en la tabla vivienda_renta
+Prompt Insertando datos en vivienda_vacacion
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (41, 4779.9, 21, 252.57);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (42, 1856.93, 23, 730.76);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (43, 7334.04, 12, 193.17);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (44, 2610.47, 11, 970.47);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (45, 3418.77, 15, 951.63);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (46, 3333.5, 23, 483.61);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (47, 9759.72, 15, 661.37);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (48, 2825.24, 24, 530.4);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (49, 7801.5, 25, 797.65);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (50, 8741.66, 22, 933.64);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (51, 9197.22, 29, 183.62);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (52, 3198.43, 13, 941.41);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (53, 3507.31, 29, 813.48);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (54, 3205.59, 18, 415.25);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (55, 8049.68, 9, 483.28);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (56, 7973.52, 22, 925.54);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (57, 916.57, 28, 748.33);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (58, 8252.98, 30, 869.75);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (59, 5227.11, 21, 980.02);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (60, 8279.05, 14, 776.81);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (61, 5299.69, 10, 214.23);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (62, 5377.77, 12, 598.29);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (63, 7301.05, 11, 130.01);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (64, 2673.96, 7, 728.42);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (65, 4802.41, 17, 300.59);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (66, 6006.69, 22, 973.3);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (67, 805.26, 23, 706.86);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (68, 3455.57, 10, 534.68);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (69, 2713.35, 7, 667.6);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (70, 2361.32, 16, 558.6);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (71, 9798.41, 17, 650.58);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (72, 2216.57, 23, 470.78);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (73, 7485.0, 8, 834.38);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (74, 5481.74, 30, 783.92);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (75, 3546.39, 21, 710.04);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (76, 9134.51, 23, 346.53);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (77, 2275.47, 28, 675.55);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (78, 2228.89, 13, 504.37);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (79, 8105.74, 28, 873.97);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (80, 2708.41, 17, 814.57);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (81, 5724.77, 17, 482.4);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (82, 3507.4, 28, 920.62);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (83, 2412.53, 13, 869.64);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (84, 8204.98, 14, 843.54);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (85, 2820.06, 8, 583.28);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (86, 1321.95, 24, 310.87);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (87, 1293.53, 27, 672.42);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (88, 2019.16, 22, 334.78);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (89, 1287.2, 8, 345.11);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (90, 4258.03, 10, 213.43);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (91, 5568.42, 16, 763.08);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (92, 656.85, 18, 625.5);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (93, 3528.85, 20, 176.62);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (94, 2258.15, 28, 313.83);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (95, 3010.09, 30, 496.5);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (96, 9107.84, 26, 795.1);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (97, 8735.02, 28, 977.18);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (98, 960.63, 8, 562.45);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (99, 5429.9, 22, 459.05);
+insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (100, 4885.49, 29, 982.96);
 
 --Inserciones en la tabla vivienda_tipo_servicio
 Prompt Dando servicios básicos a todas las viviendas
