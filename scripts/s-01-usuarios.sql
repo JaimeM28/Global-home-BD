@@ -5,16 +5,6 @@
 Prompt Iniciando con sys 
 connect sys/system as sysdba
 
-prompt Borrando usuario md_proy_admin
-drop user md_proy_admin cascade;
-
-prompt Borrando usuario md_proy_invitado
-drop user md_proy_invitado cascade;
-
-Prompt Borrando roles
-drop role rol_admin;
-drop role rol_invitado; 
-
 prompt creando usuario md_proy_admin
 create user md_proy_admin identified by admin quota unlimited on users;
 
