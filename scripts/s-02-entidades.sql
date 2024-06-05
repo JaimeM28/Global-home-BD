@@ -95,11 +95,14 @@ create table vivienda_venta(
   )virtual,
   precio                  number(12,2)     not null,
   clabe_pago              number(18,0)     not null,
+  usuario_id,
   constraint vivienda_venta_vivienda_id_fk foreign key (vivienda_id)
     references vivienda(vivienda_id),
   constraint vivienda_venta_pk primary key (vivienda_id),
   constraint vivienda_venta_numero_catastral_uk unique(numero_catastral),
-  constraint vivienda_venta_folio_escritura_uk unique(folio_escritura)
+  constraint vivienda_venta_folio_escritura_uk unique(folio_escritura),
+  constraint vivienda_venta_usuario_id_fk foreign key(usuario_id)
+    references usuario(usuario_id)
 );
 
 
