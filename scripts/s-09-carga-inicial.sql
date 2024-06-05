@@ -314,6 +314,18 @@ insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, desc
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 45.0386871, 3.103119, '6 Twin Pines Street', 16, 'Chalet de lujo con cinco dormitorios', 0, 1, 1, to_date('01/09/2020','dd/mm/yyyy'), 1, 32);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 13.952977, 121.341718, '1 Scofield Drive', 3, 'Loft moderno en barrio artístico', 0, 1, 1, to_date('10/06/2019','dd/mm/yyyy'), 6, 13);
 
+--Inserciones en la tabla vivienda_imagen
+Prompt PL/SQL insertando datos en vivienda_imagen
+begin
+  for vivienda_id in 1..99 loop
+    insert into vivienda_imagen (numero_imagen, vivienda_id, imagen)
+      values (1, vivienda_id, empty_blob());
+    insert into vivienda_imagen (numero_imagen, vivienda_id, imagen)
+      values (2, vivienda_id, empty_blob());
+  end loop;
+end;
+/
+
 -- Inserciones en la tabla vivienda_venta
 Prompt Insertando datos en vivienda_venta
 insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (1, 'aryLpk1ey4J1Mm1r2w', '9BRy0CUv591MrOn8DN', empty_blob(), 4845890.81, '304367496153462062', null);
@@ -464,7 +476,7 @@ insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto
 insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (100, 4885.49, 29, 982.96);
 
 --Inserciones en la tabla vivienda_tipo_servicio
-Prompt Dando servicios básicos a todas las viviendas
+Prompt PL/SQL insertando datos en vivienda_tipo_servicio
 begin
   for vivienda_id in 1..99 loop
     -- electricidad
@@ -476,6 +488,88 @@ begin
     -- drenaje
     insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
       values (vivienda_tipo_servicio_seq.nextval, 3, vivienda_id); 
+  if vivienda_id < 33 then
+    -- gas
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 4, vivienda_id); 
+    --telefono
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 5, vivienda_id);
+  elsif vivienda_id > 33 and vivienda_id < 66 then
+    --tv cable 
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 6, vivienda_id);
+    --aire acondicionada
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 8, vivienda_id);
+  else
+    --internet 
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 16, vivienda_id); 
+    --lavanderia
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 13, vivienda_id);
+  end if;
+  if vivienda_id in (34, 67, 23, 89, 45) then 
+    -- calefaccion
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 15, vivienda_id);
+    -- mantenimiento 
+    insert into vivienda_tipo_servicio (vivienda_tipo_servicio_id, tipo_servicio_id, vivienda_id)
+      values (vivienda_tipo_servicio_seq.nextval, 18, vivienda_id); 
+  end if;
   end loop;
 end;
 /
+
+--Inserciones en la tabla mensaje
+Prompt Insertando datos en mensaje 
+-- primer conversacion
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, 'Interés en alquiler de vivienda', 'Hola, estoy interesado en alquilar tu vivienda. ¿Podrías darme más detalles?', null, 70, 50);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, 'Re: Interés en alquiler de vivienda', 'Hola, claro que sí. La vivienda está disponible para alquiler. ¿Cuándo te gustaría visitarla?', 1, 70, 1);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '2Re: Interés en alquiler de vivienda', 'Hola, gracias por la información. ¿Podríamos coordinar una visita el próximo fin de semana?', 2, 70, 50);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '3Re: Interés en alquiler de vivienda', 'Por supuesto, el sábado por la tarde estaré disponible. ¿Te parece bien a las 3 pm?', 3, 70, 1);
+
+-- segunda conversacion
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, 'Interés en comprar vivienda', 'Hola, estoy interesado en comprar tu vivienda. ¿Podrías darme más detalles?', null, 90, 88);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, 'Re: Interés en comprar vivienda', 'Hola, claro que sí. La vivienda está disponible para la venta. ¿Cuándo te gustaría visitarla?', 1, 90, 40);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '2Re: Interés en comprar vivienda', 'Hola, gracias por la información. ¿Podríamos coordinar una visita el próximo fin de semana?', 2, 90, 88);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '3Re: Interés en comprar vivienda', 'Por supuesto, el sábado por la tarde estaré disponible. ¿Te parece bien a las 4 pm?', 3, 90, 40);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '4Re: Interés en comprar vivienda', 'Perfecto, nos vemos el sábado a las 4 pm en la dirección. Gracias.', 4, 90, 88);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '5Re: Interés en comprar vivienda', 'Genial, hasta el sábado entonces. Estoy a tu disposición para cualquier otra pregunta.', 5, 90, 40);
+
+--tercer conversacion
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, 'Interés en rentar vivienda', 'Hola, estoy interesado en rentar tu vivienda. ¿Podrías darme más detalles?', null, 26, 55);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, 'Re: Interés en rentar vivienda', 'Hola, claro que sí. La vivienda está disponible para renta. ¿Cuándo te gustaría visitarla?', 1, 26, 34);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '2Re: Interés en rentar vivienda', 'Hola, gracias por la información. ¿Podríamos coordinar una visita el próximo fin de semana?', 2, 26, 55);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '3Re: Interés en rentar vivienda', 'Por supuesto, el sábado por la tarde estaré disponible. ¿Te parece bien a las 3 pm?', 3, 26, 34);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '4Re: Interés en rentar vivienda', 'Perfecto, nos vemos el sábado a las 3 pm en la dirección. Gracias.', 4, 26, 55); 
+
+--cuarta conversacion
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, 'Disponibilidad de vivienda', 'Hola, estoy interesado en la vivienda. ¿Está disponible para renta o vacaciones?', null, 67, 66);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, 'Re: Disponibilidad de vivienda', 'Hola, sí, la vivienda está disponible tanto para renta como para vacaciones. ¿Cuál es tu interés?', 1, 67, 10);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '2Re: Disponibilidad de vivienda', 'Entendido, necesito más detalles sobre la renta para vacaciones. ¿Puedes proporcionarme más información?', 2, 67, 66);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '3Re: Disponibilidad de vivienda', 'Por supuesto, ¿cuántos días planeas quedarte y cuándo te gustaría visitar la vivienda?', 3, 67, 10);
+insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
+values (mensaje_seq.nextval, '4Re: Disponibilidad de vivienda', 'Gracias por la información. Estoy planeando una estancia de 7 días en dos semanas. ¿Podríamos agendar una visita?', 4, 67, 66);
+
+commit; 
