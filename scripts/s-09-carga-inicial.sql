@@ -1276,6 +1276,26 @@ insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
 values (24, 13, to_date('16/06/2023', 'dd/mm/yyyy'), 8081.254, empty_blob());
 
 
+--Inserciones en la tabla contrato_renta
+Prompt Insertando datos en contrato_renta
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'qIX9N403', to_date('18/04/2022','dd/mm/yyyy'), empty_blob(), 62, 99);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '5PXsBKzz', to_date('30/06/2023','dd/mm/yyyy'), empty_blob(), 70, 82);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '5eGZxgNP', to_date('07/07/2023','dd/mm/yyyy'), empty_blob(), 64, 83);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'Mxp8H9k9', to_date('12/02/2022','dd/mm/yyyy'), empty_blob(), 38, 83);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'l0awnyps', to_date('22/02/2023','dd/mm/yyyy'), empty_blob(), 23, 72);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '9xO358jU', to_date('26/12/2022','dd/mm/yyyy'), empty_blob(), 29, 60);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '5IbRTw9F', to_date('08/08/2022','dd/mm/yyyy'), empty_blob(), 33, 68);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'V2ozA1K3', to_date('05/08/2024','dd/mm/yyyy'), empty_blob(), 40, 66);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'eCz4x5x8', to_date('16/05/2024','dd/mm/yyyy'), empty_blob(), 26, 52);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'Cfwo27tA', to_date('18/02/2024','dd/mm/yyyy'), empty_blob(), 37, 89);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'sp2okF3a', to_date('21/02/2022','dd/mm/yyyy'), empty_blob(), 63, 68);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '6YRo8yHo', to_date('06/04/2022','dd/mm/yyyy'), empty_blob(), 79, 81);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '48B67JO8', to_date('26/12/2021','dd/mm/yyyy'), empty_blob(), 80, 87);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'wbV8X2Nj', to_date('24/09/2022','dd/mm/yyyy'), empty_blob(), 76, 81);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'tKU5skel', to_date('25/09/2023','dd/mm/yyyy'), empty_blob(), 30, 64);
+
+
+
 --Inserciones en la tabla historico_status_vivienda
 Prompt Insertando datos en historico_status_vivienda
 insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
