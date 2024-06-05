@@ -572,4 +572,658 @@ values (mensaje_seq.nextval, '3Re: Disponibilidad de vivienda', 'Por supuesto, �
 insert into mensaje (mensaje_id, titulo, cuerpo, mensaje_viejo_id, vivienda_id, usuario_id)
 values (mensaje_seq.nextval, '4Re: Disponibilidad de vivienda', 'Gracias por la información. Estoy planeando una estancia de 7 días en dos semanas. ¿Podríamos agendar una visita?', 4, 67, 66);
 
+
+--Inserciones en la tabla vivienda_renta_clabe
+Prompt Insertando datos en vivienda_renta_clabe
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 29);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 19, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 37);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 38, 36);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 23);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 25);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 13, 62);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 3, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 1, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 22, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 25, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 71);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 24, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 73);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 3, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 3, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 25);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 29);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 7, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 18, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 19, 73);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 71);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 21, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 21, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 18, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 33, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 62);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 29, 37);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 6, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 72);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 18, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 18, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 6, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 31);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 80);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 22, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 62);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 28);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 69);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 25);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 29);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 3, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 23);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 31);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 40);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 18, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 73);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 3, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 1, 62);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 22, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 29, 73);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 38, 69);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 37, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 73);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 1, 36);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 19, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 69);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 6, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 19, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 80);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 1, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 25);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 25, 34);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 7, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 37);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 24, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 40);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 13, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 23);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 38, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 22, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 73);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 33, 71);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 4, 72);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 70);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 29);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 37, 70);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 13, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 70);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 21, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 27, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 16, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 25, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 25, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 80);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 38, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 7, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 37, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 27, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 29, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 24, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 6, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 33, 36);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 27, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 71);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 6, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 29);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 31);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 27, 31);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 33, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 62);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 1, 25);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 28);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 23);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 13, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 29);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 29, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 31, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 62);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 3, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 31);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 18, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 16, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 1, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 3, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 22, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 33, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 18, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 62);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 29);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 21, 23);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 21, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 27, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 30, 73);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 19, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 25, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 36);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 71);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 36);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 6, 34);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 4, 23);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 22, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 29, 31);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 25, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 69);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 29, 36);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 72);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 4, 28);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 7, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 31);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 7, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 40);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 16, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 13, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 34, 40);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 38, 40);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 21, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 72);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 77);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 18, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 25, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 24, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 4, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 38, 69);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 6, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 16, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 33, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 38, 68);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 4, 66);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 36, 40);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 29, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 36);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 72);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 34);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 63);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 79);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 11, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 38, 21);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 78);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 37, 25);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 27, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 7, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 7, 65);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 4, 73);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 28, 75);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 10, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 29, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 37, 40);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 9, 71);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 35);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 37, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 23);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 32, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 71);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 30);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 19, 80);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 72);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 76);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 5, 34);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 23, 70);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 14, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 4, 72);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 17, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 13, 32);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 35, 28);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 37, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 20, 22);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 69);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 26, 24);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 37, 61);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 24, 26);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 33);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 15, 38);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 12, 64);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 22, 27);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 8, 39);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 3, 74);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 2, 67);
+insert into vivienda_renta_clabe (vivienda_renta_clabe_id, clabe_id, vivienda_id) values (vivienda_renta_clabe_seq.nextval, 19, 39);
+
+
+--Inserciones en la tabla pago
+Prompt Insertando datos en pago
+--pagos 1 - 6 mensualidades 
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (1, 5, to_date('01/07/2023', 'dd/mm/yyyy'), 199325.20, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (2, 5, to_date('01/08/2023', 'dd/mm/yyyy'), 199325.20, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (3, 5, to_date('01/09/2023', 'dd/mm/yyyy'), 199325.20, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (4, 5, to_date('01/10/2023', 'dd/mm/yyyy'), 199325.20, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (5, 5, to_date('01/11/2023', 'dd/mm/yyyy'), 199325.20, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (6, 5, to_date('01/12/2023', 'dd/mm/yyyy'), 199325.20, empty_blob());
+
+--pagos 2 - 24
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (1, 23, to_date('01/01/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (2, 23, to_date('01/02/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (3, 23, to_date('01/03/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (4, 23, to_date('01/04/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (5, 23, to_date('01/05/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (6, 23, to_date('01/06/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (7, 23, to_date('01/07/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (8, 23, to_date('01/08/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (9, 23, to_date('01/09/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (10, 23, to_date('01/10/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (11, 23, to_date('01/11/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (12, 23, to_date('01/12/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (13, 23, to_date('01/01/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (14, 23, to_date('01/02/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (15, 23, to_date('01/03/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (16, 23, to_date('01/04/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (17, 23, to_date('01/05/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (18, 23, to_date('01/06/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (19, 23, to_date('01/07/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (20, 23, to_date('01/08/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (21, 23, to_date('01/09/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (22, 23, to_date('01/10/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (23, 23, to_date('01/11/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (24, 23, to_date('01/12/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+
+--pagos 3 - 32 mensualidades
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (1, 27, to_date('01/01/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (2, 27, to_date('01/02/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (3, 27, to_date('01/03/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (4, 27, to_date('01/04/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (5, 27, to_date('01/05/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (6, 27, to_date('01/06/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (7, 27, to_date('01/07/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (8, 27, to_date('01/08/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (9, 27, to_date('01/09/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (10, 27, to_date('01/10/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (11, 27, to_date('01/11/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (12, 27, to_date('01/12/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (13, 27, to_date('01/01/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (14, 27, to_date('01/02/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (15, 27, to_date('01/03/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (16, 27, to_date('01/04/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (17, 27, to_date('01/05/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (18, 27, to_date('01/06/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (19, 27, to_date('01/07/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (20, 27, to_date('01/08/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (21, 27, to_date('01/09/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (22, 27, to_date('01/10/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (23, 27, to_date('01/11/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (24, 27, to_date('01/12/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (25, 27, to_date('01/01/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (26, 27, to_date('01/02/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (27, 27, to_date('01/03/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (28, 27, to_date('01/04/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (29, 27, to_date('01/05/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (30, 27, to_date('01/06/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (31, 27, to_date('01/07/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (32, 27, to_date('01/08/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+
+--pagos 4 - 60 mensualidades
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (1, 28, to_date('01/01/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (2, 28, to_date('01/02/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (3, 28, to_date('01/03/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (4, 28, to_date('01/04/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (5, 28, to_date('01/05/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (6, 28, to_date('01/06/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (7, 28, to_date('01/07/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (8, 28, to_date('01/08/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (9, 28, to_date('01/09/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+
+--pagos 5 - 48 mensualidades
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (1, 32, to_date('01/01/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (2, 32, to_date('01/02/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (3, 32, to_date('01/03/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (4, 32, to_date('01/04/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (5, 32, to_date('01/05/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (6, 32, to_date('01/06/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (7, 32, to_date('01/07/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (8, 32, to_date('01/08/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (9, 32, to_date('01/09/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (10, 32, to_date('01/10/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (11, 32, to_date('01/11/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (12, 32, to_date('01/12/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (13, 32, to_date('01/01/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (14, 32, to_date('01/02/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (15, 32, to_date('01/03/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (16, 32, to_date('01/04/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (17, 32, to_date('01/05/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (18, 32, to_date('01/06/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (19, 32, to_date('01/07/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (20, 32, to_date('01/08/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+
+--pagos 6 - 120 mensualidades
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (1, 34, to_date('01/01/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (2, 34, to_date('01/02/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (3, 34, to_date('01/03/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (4, 34, to_date('01/04/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (5, 34, to_date('01/05/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (6, 34, to_date('01/06/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (7, 34, to_date('01/07/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (8, 34, to_date('01/08/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (9, 34, to_date('01/09/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (10, 34, to_date('01/10/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (11, 34, to_date('01/11/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (12, 34, to_date('01/12/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (13, 34, to_date('01/01/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (14, 34, to_date('01/02/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (15, 34, to_date('01/03/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (16, 34, to_date('01/04/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (17, 34, to_date('01/05/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+
+--pagos 7 - 96 mensualidades 
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (1, 40, to_date('01/01/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (2, 40, to_date('01/02/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (3, 40, to_date('01/03/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (4, 40, to_date('01/04/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (5, 40, to_date('01/05/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (6, 40, to_date('01/06/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (7, 40, to_date('01/07/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (8, 40, to_date('01/08/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (9, 40, to_date('01/09/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (10, 40, to_date('01/10/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (11, 40, to_date('01/11/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (12, 40, to_date('01/12/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (13, 40, to_date('01/01/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (14, 40, to_date('01/02/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (15, 40, to_date('01/03/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (16, 40, to_date('01/04/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (17, 40, to_date('01/05/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (18, 40, to_date('01/06/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (19, 40, to_date('01/07/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (20, 40, to_date('01/08/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (21, 40, to_date('01/09/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (22, 40, to_date('01/10/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (23, 40, to_date('01/11/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (24, 40, to_date('01/12/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (25, 40, to_date('01/01/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (26, 40, to_date('01/02/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (27, 40, to_date('01/03/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (28, 40, to_date('01/04/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (29, 40, to_date('01/05/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (30, 40, to_date('01/06/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (31, 40, to_date('01/07/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (32, 40, to_date('01/08/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
+values (33, 40, to_date('01/09/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+
+
 commit; 
