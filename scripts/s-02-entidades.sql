@@ -16,9 +16,9 @@ create table usuario(
   apellido_materno       varchar2(40)     null,
   contrasenia            varchar2(15)     not null,
   constraint usuario_pk primary key (usuario_id),
-  constraint usuario_nombre_usuario_chk check(length(nombre_usuario) = 10),
   constraint usuario_contrasenia_chk check(length(contrasenia) between 8 and 10),
-  constraint usuario_correo_uk unique(correo)
+  constraint usuario_correo_uk unique(correo),
+  constraint usuario_nombre_usuario_uk unique(nombre_usuario)
 );
 
 -- 
