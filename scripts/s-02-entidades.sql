@@ -55,7 +55,14 @@ create table vivienda(
   constraint vivienda_status_vivienda_id_fk foreign key(status_vivienda_id)
     references status_vivienda(status_vivienda_id),
   constraint vivienda_usuario_id_fk foreign key (usuario_id)
-    references usuario(usuario_id)
+    references usuario(usuario_id),
+  constraint vivienda_tipo_chk check(
+    (es_renta=1 and es_vacacion=1 and es_venta = 0) or
+    (es_renta=0 and es_vacacion=1 and es_venta = 1) or
+    (es_renta=1 and es_vacacion=0 and es_venta = 0) or
+    (es_renta=0 and es_vacacion=1 and es_venta = 0) or 
+    (es_renta=0 and es_vacacion=0 and es_venta = 1) 
+  )
 );
 
 -- 

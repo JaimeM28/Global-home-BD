@@ -200,3 +200,4 @@ insert into usuario (usuario_id, correo, nombre_usuario, nombre, apellido_patern
 insert into usuario (usuario_id, correo, nombre_usuario, nombre, apellido_paterno, apellido_materno, contrasenia) values (usuario_seq.nextval, 'cduggan2n@arizona.edu', 'crafty', 'Sergio', 'Castañeda', 'Sanz', 'tQ9U1Dt7Gy');
 insert into usuario (usuario_id, correo, nombre_usuario, nombre, apellido_paterno, apellido_materno, contrasenia) values (usuario_seq.nextval, 'dgolborne2o@tmall.com', 'curioso', 'Natalia', 'Pacheco', 'Soler', 'S6127gpM6');
 insert into usuario (usuario_id, correo, nombre_usuario, nombre, apellido_paterno, apellido_materno, contrasenia) values (usuario_seq.nextval, 'jgodden2p@craigslist.org', 'steve', 'Paola', 'Moreno', 'Marín', 'icB3PQ4YTn');
+
