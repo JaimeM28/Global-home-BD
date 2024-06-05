@@ -5,17 +5,17 @@
 -- Inserciones en la tabla status_vivienda 
 Prompt Insertando datos en status_vivienda
 insert into status_vivienda (status_vivienda_id, clave, descripcion)
-  values (status_vivienda_seq.nextval, 'disponible', 'la vivienda está disponible para cualquier tipo de operación (venta, renta, etc.)');
+  values (status_vivienda_seq.nextval, 'DISPONIBLE', 'la vivienda está disponible para cualquier tipo de operación (venta, renta, etc.)');
 insert into status_vivienda (status_vivienda_id, clave, descripcion)
-  values (status_vivienda_seq.nextval, 'en renta', 'la vivienda está actualmente en renta y disponible para ser alquilada.');
+  values (status_vivienda_seq.nextval, 'EN RENTA', 'la vivienda está actualmente en renta y disponible para ser alquilada.');
 insert into status_vivienda (status_vivienda_id, clave, descripcion)
-  values (status_vivienda_seq.nextval, 'alquilada', 'la vivienda ha sido alquilada y no está disponible para nuevos inquilinos.');
+  values (status_vivienda_seq.nextval, 'ALQUILADA', 'la vivienda ha sido alquilada y no está disponible para nuevos inquilinos.');
 insert into status_vivienda (status_vivienda_id, clave, descripcion)
-  values (status_vivienda_seq.nextval, 'en venta', 'la vivienda está actualmente en venta y disponible para ser comprada.');
+  values (status_vivienda_seq.nextval, 'EN VENTA', 'la vivienda está actualmente en venta y disponible para ser comprada.');
 insert into status_vivienda (status_vivienda_id, clave, descripcion)
-  values (status_vivienda_seq.nextval, 'vendida', 'la vivienda ha sido vendida y ya no está disponible para la venta.');
+  values (status_vivienda_seq.nextval, 'VENDIDA', 'la vivienda ha sido vendida y ya no está disponible para la venta.');
 insert into status_vivienda (status_vivienda_id, clave, descripcion)
-  values (status_vivienda_seq.nextval, 'inactiva', 'la vivienda está inactiva y no está disponible para ninguna operación.');
+  values (status_vivienda_seq.nextval, 'INACTIVA', 'la vivienda está inactiva y no está disponible para ninguna operación.');
 
 -- Inserciones en la tabla tipo_servicio
 Prompt Insertando datos en tipo_servicio
@@ -209,22 +209,22 @@ insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, desc
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 10.630446, 122.977964, '80 Erie Center', 3, 'Casa con jardín zen y estanque', 0, 0, 1, to_date('19/09/2018','dd/mm/yyyy'), 4, 12);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 51.653437, 39.183897, '39 Monica Drive', 16, 'Vivienda en urbanización privada', 0, 0, 1, to_date('05/03/2023','dd/mm/yyyy'), 4, 40);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -22.9106154, 44.5266466, '733 Pleasure Park', 7, 'Apartamento con cocina equipada y parking', 0, 0, 1, to_date('05/07/2018','dd/mm/yyyy'), 4, 28);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 25.4166153, -100.1591213, '6076 Lien Avenue', 15, 'Penthouse con terraza y vista al mar', 0, 0, 1, to_date('19/04/2020','dd/mm/yyyy'), 3, 14);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 46.3899032, 16.6974271, '49849 Steensland Pass', 7, 'Residencia con patio y barbacoa', 0, 0, 1, to_date('28/05/2019','dd/mm/yyyy'), 4, 42);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 58.703557, 14.1362521, '6 Iowa Junction', 20, 'Residencia con patio y barbacoa', 0, 0, 1, to_date('20/02/2021','dd/mm/yyyy'), 3, 40);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 17.0852216, 120.8681069, '2 Riverside Trail', 7, 'Duplex con piscina comunitaria', 0, 0, 1, to_date('07/06/2020','dd/mm/yyyy'), 3, 25);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 14.622814, -61.030174, '7 Main Point', 2, 'Apartamento acogedor cerca de la playa', 0, 0, 1, to_date('17/04/2019','dd/mm/yyyy'), 3, 12);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 25.038296, 102.664376, '79356 Vernon Parkway', 20, 'Loft moderno en barrio artístico', 0, 0, 1, to_date('30/06/2022','dd/mm/yyyy'), 4, 9);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -6.90572, 109.01489, '1 Lawn Avenue', 7, 'Estudio luminoso con balcón', 0, 0, 1, to_date('28/09/2022','dd/mm/yyyy'), 4, 15);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 18.5049101, -69.8296974, '8 Roxbury Lane', 2, 'Apartamento con cocina equipada y parking', 0, 0, 1, to_date('13/12/2019','dd/mm/yyyy'), 3, 2);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 33.5590518, 71.4915293, '14 Carpenter Trail', 17, 'Casa de campo con vistas panorámicas', 0, 0, 1, to_date('16/06/2021','dd/mm/yyyy'), 3, 36);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 45.5599168, -73.2004857, '30710 Valley Edge Hill', 2, 'Penthouse con terraza y vista al mar', 0, 0, 1, to_date('16/09/2018','dd/mm/yyyy'), 4, 7);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 49.7365816, 19.4856654, '22000 Union Point', 5, 'Casa familiar con cuatro habitaciones', 0, 0, 1, to_date('03/01/2023','dd/mm/yyyy'), 3, 45);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 25.4166153, -100.1591213, '6076 Lien Avenue', 15, 'Penthouse con terraza y vista al mar', 0, 0, 1, to_date('01/06/2023','dd/mm/yyyy'), 5, 14);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 46.3899032, 16.6974271, '49849 Steensland Pass', 7, 'Residencia con patio y barbacoa', 0, 0, 1, to_date('28/05/2019','dd/mm/yyyy'), 4, 42); 
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 58.703557, 14.1362521, '6 Iowa Junction', 20, 'Residencia con patio y barbacoa', 0, 0, 1, to_date('20/02/2021','dd/mm/yyyy'), 4, 40); 
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 17.0852216, 120.8681069, '2 Riverside Trail', 7, 'Duplex con piscina comunitaria', 0, 0, 1, to_date('07/06/2020','dd/mm/yyyy'), 4, 25); 
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 14.622814, -61.030174, '7 Main Point', 2, 'Apartamento acogedor cerca de la playa', 0, 0, 1, to_date('17/04/2019','dd/mm/yyyy'), 4, 12); 
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 25.038296, 102.664376, '79356 Vernon Parkway', 20, 'Loft moderno en barrio artístico', 0, 0, 1, to_date('30/06/2022','dd/mm/yyyy'), 6, 9); 
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -6.90572, 109.01489, '1 Lawn Avenue', 7, 'Estudio luminoso con balcón', 0, 0, 1, to_date('28/09/2022','dd/mm/yyyy'), 4, 15); 
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 18.5049101, -69.8296974, '8 Roxbury Lane', 2, 'Apartamento con cocina equipada y parking', 0, 0, 1, to_date('13/12/2019','dd/mm/yyyy'), 4, 2);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 33.5590518, 71.4915293, '14 Carpenter Trail', 17, 'Casa de campo con vistas panorámicas', 0, 0, 1, to_date('16/06/2021','dd/mm/yyyy'), 5, 36);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 45.5599168, -73.2004857, '30710 Valley Edge Hill', 2, 'Penthouse con terraza y vista al mar', 0, 0, 1, to_date('16/09/2018','dd/mm/yyyy'), 4, 7); 
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 49.7365816, 19.4856654, '22000 Union Point', 5, 'Casa familiar con cuatro habitaciones', 0, 0, 1, to_date('03/01/2023','dd/mm/yyyy'), 6, 45);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -0.5388381, 37.4596409, '3885 Manitowish Lane', 19, 'Casa adosada en zona tranquila', 0, 0, 1, to_date('23/05/2022','dd/mm/yyyy'), 4, 40);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 7.4064275, -7.5572231, '07 Hallows Trail', 3, 'Casa rústica con chimenea', 0, 0, 1, to_date('28/01/2019','dd/mm/yyyy'), 3, 25);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -6.8008183, 107.1781769, '48459 Service Center', 3, 'Apartamento con cocina equipada y parking', 0, 0, 1, to_date('18/11/2022','dd/mm/yyyy'), 3, 40);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 7.4064275, -7.5572231, '07 Hallows Trail', 3, 'Casa rústica con chimenea', 0, 0, 1, to_date('28/01/2019','dd/mm/yyyy'), 4, 25);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -6.8008183, 107.1781769, '48459 Service Center', 3, 'Apartamento con cocina equipada y parking', 0, 0, 1, to_date('18/11/2022','dd/mm/yyyy'), 4, 40);
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -7.6611598, 109.7976584, '73 Quincy Plaza', 3, 'Casa con acceso directo al lago', 0, 0, 1, to_date('15/08/2020','dd/mm/yyyy'), 4, 45);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -23.3058194, -47.1367011, '10 Lyons Hill', 4, 'Penthouse con terraza y vista al mar', 0, 0, 1, to_date('20/08/2021','dd/mm/yyyy'), 3, 5);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -23.3058194, -47.1367011, '10 Lyons Hill', 4, 'Penthouse con terraza y vista al mar', 0, 0, 1, to_date('20/08/2021','dd/mm/yyyy'), 6, 5);
 --RENTA 
 Prompt RENTA
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 55.0775116, 24.2604924, '95563 Sloan Crossing', 10, 'Casa con jardín zen y estanque', 1, 0, 0, to_date('09/01/2021','dd/mm/yyyy'), 3, 28);
@@ -348,26 +348,26 @@ insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, aval
 insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (18, '7zRiShRcWQ4zu4Vsx4', '8o5r8035Fpfow5dBow', empty_blob(), 8721999.17, '678909665620912433', null);
 insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (19, 'MmHPf4369a4IwIL556', '340Z27q5BGvS8FD5R2', empty_blob(), 2568140.22, '186552704342998875', null);
 insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (20, 'ZWTH0j8KHFf8C66h1e', 'hojzYpU3Sy5dtdtCil', empty_blob(), 5139123.4, '764055504192357519', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (21, '94HP3PZ5RWteX5e4xh', 'p1fOVP08Fjm88usMLn', empty_blob(), 3954619.11, '960183892954258798', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (22, 'X79We8BviLd4HF1D3T', '44H8dBq6qW0hd7j0zo', empty_blob(), 2499910.26, '090606155271288939', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (23, '9N7nY9ni5QkG6jmp18', '4r3ZED878yO3WW30vZ', empty_blob(), 2153276.64, '520965178548161897', 67);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (24, 'G4d5BzzMLDLj34gSxn', '89V4uySkX6Ynbh188j', empty_blob(), 6600423.13, '759432189604521917', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (25, 'g4OjSUnoR0AInfQOLF', 'vEkS3UMVoasQOwH871', empty_blob(), 8139598.9, '671196085736505871', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (26, 'VWGx07raP60g8FOh4v', 'W28gKdPAOtTdrI57n1', empty_blob(), 9288668.81, '356943856575994065', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (27, 'Z2e1b2EyZkl663567y', 'J28b4B63dri8EeW9PQ', empty_blob(), 5895482.88, '330638014693199698', 81);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (28, 'CjCfs38tS3XHCyp8E3', 'xo84bBd8zIpv0oAN9m', empty_blob(), 8422761.38, '145688724948843721', 50);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (29, '2k8nY8sZhD9s4WQ397', 'r8V2jYpu58846VM1t5', empty_blob(), 5871671.92, '506227332382073651', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (30, 'oLLuCw64zrQ7SS46Cd', 'fam05G80431A0ycySt', empty_blob(), 7711964.32, '416861766770778854', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (31, 'CA1H4mT41qLaW6N5xn', 'p460Qftg31R020Ay2S', empty_blob(), 3187105.22, '149876755612730451', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (32, 'cx7nu9x1S5CMxql3X7', 'BB2zg6ak0bl3slM0wa', empty_blob(), 880514.99, '650633546932618595', 88);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (33, 'uBGIffx412nP59OP8w', 'hJ9T69mu8Mf0z97e9u', empty_blob(), 4918723.71, '417943266403705141', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (34, 'G1JQ44c1pDG1c0OwNN', 'kGV88P9SMfu27eu25b', empty_blob(), 1132080.25, '148054701688089661', 48);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (35, 'Cq6De52BfIxf11Iosl', 'aHB75v4rY55ymQWSiy', empty_blob(), 4848294.41, '588182291322964780', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (36, 'iQthPIDu2UMLGn5q3s', 'Wdv2G1643WC2vR67KE', empty_blob(), 8634144.34, '346683474848179736', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (37, 'lGgEk55J6t744353F1', 'dR4H1PxDlINX89M9yX', empty_blob(), 8093345.25, '923611048091972334', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (38, 'lFRodLoHG5o6LvYDD6', 'drixFjiic0W722Cg2s', empty_blob(), 3891858.35, '772757537371689810', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (39, 'Iy50L27R5pzQUU9rJZ', '35A0L2vafL2m21Hg5r', empty_blob(), 7879722.72, '085654130281044746', null);
-insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (40, 'Mc5iLX004R2oezbPQk', 'HkPI6gHfPNSy1cJQvX', empty_blob(), 1459329.36, '307393006184664319', 64);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (81, '94HP3PZ5RWteX5e4xh', 'p1fOVP08Fjm88usMLn', empty_blob(), 3954619.11, '960183892954258798', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (82, 'X79We8BviLd4HF1D3T', '44H8dBq6qW0hd7j0zo', empty_blob(), 2499910.26, '090606155271288939', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (83, '9N7nY9ni5QkG6jmp18', '4r3ZED878yO3WW30vZ', empty_blob(), 2153276.64, '520965178548161897', 67);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (84, 'G4d5BzzMLDLj34gSxn', '89V4uySkX6Ynbh188j', empty_blob(), 6600423.13, '759432189604521917', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (85, 'g4OjSUnoR0AInfQOLF', 'vEkS3UMVoasQOwH871', empty_blob(), 8139598.9, '671196085736505871', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (86, 'VWGx07raP60g8FOh4v', 'W28gKdPAOtTdrI57n1', empty_blob(), 9288668.81, '356943856575994065', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (87, 'Z2e1b2EyZkl663567y', 'J28b4B63dri8EeW9PQ', empty_blob(), 5895482.88, '330638014693199698', 81);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (88, 'CjCfs38tS3XHCyp8E3', 'xo84bBd8zIpv0oAN9m', empty_blob(), 8422761.38, '145688724948843721', 50);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (89, '2k8nY8sZhD9s4WQ397', 'r8V2jYpu58846VM1t5', empty_blob(), 5871671.92, '506227332382073651', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (90, 'oLLuCw64zrQ7SS46Cd', 'fam05G80431A0ycySt', empty_blob(), 7711964.32, '416861766770778854', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (91, 'CA1H4mT41qLaW6N5xn', 'p460Qftg31R020Ay2S', empty_blob(), 3187105.22, '149876755612730451', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (92, 'cx7nu9x1S5CMxql3X7', 'BB2zg6ak0bl3slM0wa', empty_blob(), 880514.99, '650633546932618595', 88);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (93, 'uBGIffx412nP59OP8w', 'hJ9T69mu8Mf0z97e9u', empty_blob(), 4918723.71, '417943266403705141', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (94, 'G1JQ44c1pDG1c0OwNN', 'kGV88P9SMfu27eu25b', empty_blob(), 1132080.25, '148054701688089661', 48);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (95, 'Cq6De52BfIxf11Iosl', 'aHB75v4rY55ymQWSiy', empty_blob(), 4848294.41, '588182291322964780', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (96, 'iQthPIDu2UMLGn5q3s', 'Wdv2G1643WC2vR67KE', empty_blob(), 8634144.34, '346683474848179736', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (97, 'lGgEk55J6t744353F1', 'dR4H1PxDlINX89M9yX', empty_blob(), 8093345.25, '923611048091972334', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (98, 'lFRodLoHG5o6LvYDD6', 'drixFjiic0W722Cg2s', empty_blob(), 3891858.35, '772757537371689810', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (99, 'Iy50L27R5pzQUU9rJZ', '35A0L2vafL2m21Hg5r', empty_blob(), 7879722.72, '085654130281044746', null);
+insert into vivienda_venta (vivienda_id, numero_catastral, folio_escritura, avaluo_propiedad_pdf, precio, clabe_pago, usuario_id) values (100, 'Mc5iLX004R2oezbPQk', 'HkPI6gHfPNSy1cJQvX', empty_blob(), 1459329.36, '307393006184664319', 64);
 
 -- Inserciones en la tabla vivienda_renta
 Prompt Insertando datos en vivienda_renta
@@ -412,7 +412,7 @@ insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (78
 insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (79, 34518.81, 1);
 insert into vivienda_renta (vivienda_id, renta_mensual, mes_deposito) values (80, 33825.48, 5);
 
--- Inserciones en la tabla vivienda_renta
+-- Inserciones en la tabla vivienda_vacacion
 Prompt Insertando datos en vivienda_vacacion
 insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (41, 4779.9, 21, 252.57);
 insert into vivienda_vacacion (vivienda_id, costo_dia, maximo_dias, costo_aparto) values (42, 1856.93, 23, 730.76);
@@ -945,285 +945,392 @@ values (6, 5, to_date('01/12/2023', 'dd/mm/yyyy'), 199325.20, empty_blob());
 
 --pagos 2 - 24
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (1, 23, to_date('01/01/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (1, 83, to_date('01/01/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (2, 23, to_date('01/02/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (2, 83, to_date('01/02/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (3, 23, to_date('01/03/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (3, 83, to_date('01/03/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (4, 23, to_date('01/04/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (4, 83, to_date('01/04/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (5, 23, to_date('01/05/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (5, 83, to_date('01/05/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (6, 23, to_date('01/06/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (6, 83, to_date('01/06/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (7, 23, to_date('01/07/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (7, 83, to_date('01/07/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (8, 23, to_date('01/08/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (8, 83, to_date('01/08/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (9, 23, to_date('01/09/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (9, 83, to_date('01/09/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (10, 23, to_date('01/10/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (10, 83, to_date('01/10/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (11, 23, to_date('01/11/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (11, 83, to_date('01/11/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (12, 23, to_date('01/12/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (12, 83, to_date('01/12/2018', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (13, 23, to_date('01/01/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (13, 83, to_date('01/01/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (14, 23, to_date('01/02/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (14, 83, to_date('01/02/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (15, 23, to_date('01/03/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (15, 83, to_date('01/03/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (16, 23, to_date('01/04/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (16, 83, to_date('01/04/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (17, 23, to_date('01/05/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (17, 83, to_date('01/05/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (18, 23, to_date('01/06/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (18, 83, to_date('01/06/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (19, 23, to_date('01/07/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (19, 83, to_date('01/07/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (20, 23, to_date('01/08/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (20, 83, to_date('01/08/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (21, 23, to_date('01/09/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (21, 83, to_date('01/09/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (22, 23, to_date('01/10/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (22, 83, to_date('01/10/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (23, 23, to_date('01/11/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (23, 83, to_date('01/11/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (24, 23, to_date('01/12/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
+values (24, 83, to_date('01/12/2019', 'dd/mm/yyyy'), 89719.86, empty_blob());
 
 --pagos 3 - 32 mensualidades
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (1, 27, to_date('01/01/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (1, 87, to_date('01/01/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (2, 27, to_date('01/02/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (2, 87, to_date('01/02/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (3, 27, to_date('01/03/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (3, 87, to_date('01/03/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (4, 27, to_date('01/04/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (4, 87, to_date('01/04/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (5, 27, to_date('01/05/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (5, 87, to_date('01/05/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (6, 27, to_date('01/06/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (6, 87, to_date('01/06/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (7, 27, to_date('01/07/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (7, 87, to_date('01/07/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (8, 27, to_date('01/08/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (8, 87, to_date('01/08/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (9, 27, to_date('01/09/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (9, 87, to_date('01/09/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (10, 27, to_date('01/10/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (10, 87, to_date('01/10/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (11, 27, to_date('01/11/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (11, 87, to_date('01/11/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (12, 27, to_date('01/12/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (12, 87, to_date('01/12/2021', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (13, 27, to_date('01/01/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (13, 87, to_date('01/01/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (14, 27, to_date('01/02/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (14, 87, to_date('01/02/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (15, 27, to_date('01/03/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (15, 87, to_date('01/03/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (16, 27, to_date('01/04/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (16, 87, to_date('01/04/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (17, 27, to_date('01/05/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (17, 87, to_date('01/05/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (18, 27, to_date('01/06/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (18, 87, to_date('01/06/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (19, 27, to_date('01/07/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (19, 87, to_date('01/07/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (20, 27, to_date('01/08/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (20, 87, to_date('01/08/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (21, 27, to_date('01/09/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (21, 87, to_date('01/09/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (22, 27, to_date('01/10/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (22, 87, to_date('01/10/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (23, 27, to_date('01/11/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (23, 87, to_date('01/11/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (24, 27, to_date('01/12/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (24, 87, to_date('01/12/2022', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (25, 27, to_date('01/01/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (25, 87, to_date('01/01/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (26, 27, to_date('01/02/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (26, 87, to_date('01/02/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (27, 27, to_date('01/03/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (27, 87, to_date('01/03/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (28, 27, to_date('01/04/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (28, 87, to_date('01/04/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (29, 27, to_date('01/05/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (29, 87, to_date('01/05/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (30, 27, to_date('01/06/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (30, 87, to_date('01/06/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (31, 27, to_date('01/07/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (31, 87, to_date('01/07/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (32, 27, to_date('01/08/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
+values (32, 87, to_date('01/08/2023', 'dd/mm/yyyy'), 184234.46, empty_blob());
 
 --pagos 4 - 60 mensualidades
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (1, 28, to_date('01/01/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (1, 88, to_date('01/01/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (2, 28, to_date('01/02/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (2, 88, to_date('01/02/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (3, 28, to_date('01/03/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (3, 88, to_date('01/03/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (4, 28, to_date('01/04/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (4, 88, to_date('01/04/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (5, 28, to_date('01/05/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (5, 88, to_date('01/05/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (6, 28, to_date('01/06/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (6, 88, to_date('01/06/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (7, 28, to_date('01/07/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (7, 88, to_date('01/07/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (8, 28, to_date('01/08/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (8, 88, to_date('01/08/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (9, 28, to_date('01/09/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
+values (9, 88, to_date('01/09/2023', 'dd/mm/yyyy'), 140379.36, empty_blob());
 
 --pagos 5 - 48 mensualidades
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (1, 32, to_date('01/01/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (1, 92, to_date('01/01/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (2, 32, to_date('01/02/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (2, 92, to_date('01/02/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (3, 32, to_date('01/03/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (3, 92, to_date('01/03/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (4, 32, to_date('01/04/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (4, 92, to_date('01/04/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (5, 32, to_date('01/05/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (5, 92, to_date('01/05/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (6, 32, to_date('01/06/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (6, 92, to_date('01/06/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (7, 32, to_date('01/07/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (7, 92, to_date('01/07/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (8, 32, to_date('01/08/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (8, 92, to_date('01/08/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (9, 32, to_date('01/09/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (9, 92, to_date('01/09/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (10, 32, to_date('01/10/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (10, 92, to_date('01/10/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (11, 32, to_date('01/11/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (11, 92, to_date('01/11/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (12, 32, to_date('01/12/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (12, 92, to_date('01/12/2022', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (13, 32, to_date('01/01/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (13, 92, to_date('01/01/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (14, 32, to_date('01/02/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (14, 92, to_date('01/02/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (15, 32, to_date('01/03/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (15, 92, to_date('01/03/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (16, 32, to_date('01/04/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (16, 92, to_date('01/04/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (17, 32, to_date('01/05/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (17, 92, to_date('01/05/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (18, 32, to_date('01/06/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (18, 92, to_date('01/06/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (19, 32, to_date('01/07/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (19, 92, to_date('01/07/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (20, 32, to_date('01/08/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
+values (20, 92, to_date('01/08/2023', 'dd/mm/yyyy'), 18344.06, empty_blob());
 
 --pagos 6 - 120 mensualidades
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (1, 34, to_date('01/01/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (1, 94, to_date('01/01/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (2, 34, to_date('01/02/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (2, 94, to_date('01/02/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (3, 34, to_date('01/03/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (3, 94, to_date('01/03/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (4, 34, to_date('01/04/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (4, 94, to_date('01/04/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (5, 34, to_date('01/05/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (5, 94, to_date('01/05/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (6, 34, to_date('01/06/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (6, 94, to_date('01/06/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (7, 34, to_date('01/07/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (7, 94, to_date('01/07/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (8, 34, to_date('01/08/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (8, 94, to_date('01/08/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (9, 34, to_date('01/09/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (9, 94, to_date('01/09/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (10, 34, to_date('01/10/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (10,94, to_date('01/10/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (11, 34, to_date('01/11/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (11, 94, to_date('01/11/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (12, 34, to_date('01/12/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (12, 94, to_date('01/12/2023', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (13, 34, to_date('01/01/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (13, 94, to_date('01/01/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (14, 34, to_date('01/02/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (14, 94, to_date('01/02/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (15, 34, to_date('01/03/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (15, 94, to_date('01/03/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (16, 34, to_date('01/04/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (16, 94, to_date('01/04/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (17, 34, to_date('01/05/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
+values (17, 94, to_date('01/05/2024', 'dd/mm/yyyy'), 9434.00, empty_blob());
 
 --pagos 7 - 96 mensualidades 
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (1, 40, to_date('01/01/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (1, 100, to_date('01/01/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (2, 40, to_date('01/02/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (2, 100, to_date('01/02/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (3, 40, to_date('01/03/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (3, 100, to_date('01/03/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (4, 40, to_date('01/04/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (4, 100, to_date('01/04/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (5, 40, to_date('01/05/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (5, 100, to_date('01/05/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (6, 40, to_date('01/06/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (6, 100, to_date('01/06/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (7, 40, to_date('01/07/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (7, 100, to_date('01/07/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (8, 40, to_date('01/08/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (8, 100, to_date('01/08/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (9, 40, to_date('01/09/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (9, 100, to_date('01/09/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (10, 40, to_date('01/10/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (10, 100, to_date('01/10/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (11, 40, to_date('01/11/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (11, 100, to_date('01/11/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (12, 40, to_date('01/12/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (12, 100, to_date('01/12/2021', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (13, 40, to_date('01/01/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (13, 100, to_date('01/01/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (14, 40, to_date('01/02/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (14, 100, to_date('01/02/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (15, 40, to_date('01/03/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (15, 100, to_date('01/03/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (16, 40, to_date('01/04/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (16, 100, to_date('01/04/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (17, 40, to_date('01/05/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (17, 100, to_date('01/05/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (18, 40, to_date('01/06/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (18, 100, to_date('01/06/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (19, 40, to_date('01/07/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (19, 100, to_date('01/07/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (20, 40, to_date('01/08/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (20, 100, to_date('01/08/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (21, 40, to_date('01/09/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (21, 100, to_date('01/09/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (22, 40, to_date('01/10/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (22, 100, to_date('01/10/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (23, 40, to_date('01/11/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (23, 100, to_date('01/11/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (24, 40, to_date('01/12/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (24, 100, to_date('01/12/2022', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (25, 40, to_date('01/01/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (25, 100, to_date('01/01/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (26, 40, to_date('01/02/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (26, 100, to_date('01/02/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (27, 40, to_date('01/03/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (27, 100, to_date('01/03/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (28, 40, to_date('01/04/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (28, 100, to_date('01/04/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (29, 40, to_date('01/05/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (29, 100, to_date('01/05/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (30, 40, to_date('01/06/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (30, 100, to_date('01/06/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (31, 40, to_date('01/07/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (31, 100, to_date('01/07/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (32, 40, to_date('01/08/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (32, 100, to_date('01/08/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf)
-values (33, 40, to_date('01/09/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
+values (33, 100, to_date('01/09/2023', 'dd/mm/yyyy'), 15234.00, empty_blob());
 
+--pagos 8 - 24
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (1, 13, to_date('16/07/2021', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (2, 13, to_date('16/08/2021', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (3, 13, to_date('16/09/2021', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (4, 13, to_date('16/10/2021', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (5, 13, to_date('16/11/2021', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (6, 13, to_date('16/12/2021', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (7, 13, to_date('16/01/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (8, 13, to_date('16/02/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (9, 13, to_date('16/03/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (10, 13, to_date('16/04/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (11, 13, to_date('16/05/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (12, 13, to_date('16/06/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (13, 13, to_date('16/07/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (14, 13, to_date('16/08/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (15, 13, to_date('16/09/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (16, 13, to_date('16/10/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (17, 13, to_date('16/11/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (18, 13, to_date('16/12/2022', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (19, 13, to_date('16/01/2023', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (20, 13, to_date('16/02/2023', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (21, 13, to_date('16/03/2023', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (22, 13, to_date('16/04/2023', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (23, 13, to_date('16/05/2023', 'dd/mm/yyyy'), 8081.254, empty_blob());
+insert into pago (mensualidad, vivienda_id, fecha, importe, deposito_pdf) 
+values (24, 13, to_date('16/06/2023', 'dd/mm/yyyy'), 8081.254, empty_blob());
+
+
+--Inserciones en la tabla historico_status_vivienda
+Prompt Insertando datos en historico_status_vivienda
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('23/10/2021','dd/mm/yyyy'),4,1);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('19/09/2018','dd/mm/yyyy'),4,2);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('05/03/2023','dd/mm/yyyy'),4,3);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('05/07/2018','dd/mm/yyyy'),4,4);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('09/06/2022','dd/mm/yyyy'),4,5);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('01/06/2023','dd/mm/yyyy'),5,5);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('28/05/2019','dd/mm/yyyy'),4,6);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('20/02/2021','dd/mm/yyyy'),4,7);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('07/06/2022','dd/mm/yyyy'),4,8);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('17/04/2019','dd/mm/yyyy'),4,9);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('21/02/2019','dd/mm/yyyy'),4,10);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('30/06/2022','dd/mm/yyyy'),6,10);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('28/09/2022','dd/mm/yyyy'),4,11);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('13/12/2019','dd/mm/yyyy'),4,12);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('01/01/2018','dd/mm/yyyy'),4,13);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('16/06/2019','dd/mm/yyyy'),4,13);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('16/09/2018','dd/mm/yyyy'),4,14);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('02/03/2021','dd/mm/yyyy'),4,15);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('03/01/2023','dd/mm/yyyy'),6,15);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('23/05/2023','dd/mm/yyyy'),4,16);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('28/01/2019','dd/mm/yyyy'),4,17);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('18/11/2022','dd/mm/yyyy'),4,18);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('15/08/2020','dd/mm/yyyy'),4,19);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('23/02/2018','dd/mm/yyyy'),4,20);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('20/08/2021','dd/mm/yyyy'),6,20);
+
+
+
+  
 
 commit; 
