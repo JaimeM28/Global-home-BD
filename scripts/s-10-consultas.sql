@@ -61,20 +61,24 @@ WHERE status_descripcion = 'Disponible';
 -- 7. Consulta que involucra el uso de una tabla externa
 -- Nota: Asumiendo que se ha configurado una tabla externa previamente
 
-SELECT * 
-FROM external_vivienda
-WHERE es_renta = 1;
+--SELECT vv.vivienda_id, vv.numero_catastral, vv.folio_escritura, vv.precio
+--FROM vivienda_venta vv
+--JOIN vivienda_venta_ext vve
+--ON vv.numero_catastral = vve.numero_catastral
+--AND vv.folio_escritura = vve.folio_escritura;
 
--- 8. Consulta usando NATURAL JOIN y subconsulta
+
+-- 8. Consulta usando JOIN explícito y subconsulta
 SELECT v.vivienda_id, v.direccion, t.tipo_servicio_id, t.nombre AS servicio_nombre
 FROM vivienda v
-NATURAL JOIN vivienda_tipo_servicio vts
-NATURAL JOIN tipo_servicio t
+JOIN vivienda_tipo_servicio vts ON v.vivienda_id = vts.vivienda_id
+JOIN tipo_servicio t ON vts.tipo_servicio_id = t.tipo_servicio_id
 WHERE v.vivienda_id IN (
   SELECT vivienda_id 
   FROM vivienda
   WHERE es_renta = 1
 );
 
+--
 -- Mensaje de éxito
 PROMPT Consultas SQL creadas correctamente.
