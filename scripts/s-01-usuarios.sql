@@ -14,7 +14,8 @@ create user md_proy_invitado identified by invitado quota 0 on users;
 Prompt creando roles
 create role rol_admin;
 grant create session, create table, create view, create sequence, 
-  create public synonym, create synonym to rol_admin;
+  create public synonym, create synonym, create procedure,
+  create trigger to rol_admin;
 create role rol_invitado;
 grant create session, create synonym to rol_invitado; 
 

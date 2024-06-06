@@ -10,24 +10,26 @@ RETURN NUMBER
 IS
   v_importe_total NUMBER;
   v_pago_mensual NUMBER;
+  v_count NUMBER;
 BEGIN
-  -- Recuperar el importe total de la vivienda
-  SELECT SUM(importe)
-  INTO v_importe_total
-  FROM pago
-  WHERE vivienda_id = p_vivienda_id;
-
-  -- Calcular el pago por mes
-  v_pago_mensual := v_importe_total / p_mensualidades;
-  
-  -- Retornar el pago por mes
-  RETURN v_pago_mensual;
-EXCEPTION
-  WHEN NO_DATA_FOUND THEN
-    -- Manejo de excepción si no se encuentra la vivienda
-    RETURN NULL;
-  WHEN OTHERS THEN
-    -- Manejo de cualquier otra excepción
-    RETURN NULL;
-END calcular_pago_mensual;
+  --Verificando existencia de vivienda
+  select count(*) into v_count
+  from vivienda_venta
+  where vivienda_id = p_vivienda_id;
+  --verificando mensualidad
+  if p_mensualidades < 1 and 240 > p_mensualidades   then
+    raise_application_error(-20001, 'ERROR: mensualidad erronea');
+  elsif v_count = 0 then 
+    raise_application_error(-20002, 'ERROR: vivienda no esta en venta o no existe');
+  else
+    -- Recuperar el importe total de la vivienda
+    select precio into v_importe_total
+    FROM vivienda_venta
+    WHERE vivienda_id = p_vivienda_id;
+    --Calcular el pago por mes
+    v_pago_mensual := v_importe_total / p_mensualidades;
+    -- Retornar el pago por mes
+    RETURN v_pago_mensual;
+  end if;
+end calcular_pago_mensual;
 /
