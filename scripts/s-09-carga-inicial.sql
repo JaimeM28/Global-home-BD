@@ -1462,6 +1462,100 @@ values (alquiler_calificacion_seq.nextval, 3, to_date('24/11/2022', 'dd/mm/yyyy'
 insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
 values (alquiler_calificacion_seq.nextval, 5, to_date('28/09/2021', 'dd/mm/yyyy') + 25, 'Excelente atención del propietario, lugar perfecto.', 73, 30);
 
+
+--Inserciones en la tabla vivienda_vacacion_espera
+Prompt Insertando datos en vivienda_vacacion_espera
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '3504286143', 66, 86);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '9441785853', 59, 68);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '4829956724', 54, 68);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '6861584917', 69, 67);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '8297019354', 88, 47);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '3132725210', 65, 44);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '3625412178', 91, 70);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '0847087010', 73, 73);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '7926402336', 93, 90);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '6381645012', 69, 57);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '2673416259', 65, 95);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '2997276932', 97, 64);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '5824834614', 87, 60);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '8016297279', 84, 65);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '2985964660', 65, 58);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '4954294999', 69, 42);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '6163749221', 56, 68);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '7462717520', 69, 46);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '1089663762', 55, 47);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '9360344642', 67, 49);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '2008686997', 76, 46);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '3928943553', 97, 73);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '5194392177', 80, 82);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '6971116750', 48, 74);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '7474394371', 77, 88);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '6758563626', 83, 67);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '7381810404', 87, 58);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '6952747276', 57, 68);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '4188537352', 87, 51);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '1145533927', 67, 43);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '3928794612', 83, 62);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '8753480382', 85, 83);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '2544182032', 58, 93);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '0808141503', 65, 85);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '9429259532', 51, 83);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '5793980092', 84, 91);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '6452963504', 93, 48);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '4861183371', 86, 58);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '0973927347', 85, 91);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '6071171262', 84, 94);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '5619084862', 52, 67);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '9664686490', 74, 67);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '2155542270', 57, 46);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 1, '1913187674', 80, 84);
+insert into vivienda_vacacion_espera (vivienda_vacacion_espera_id, enviado, numero_celular, usuario_id, vivienda_id) 
+values (vivienda_vacacion_espera_seq.nextval, 0, '5505383115', 68, 42);
+
 --Inserciones en la tabla historico_status_vivienda
 Prompt Insertando datos en historico_status_vivienda
 --historico venta
@@ -1583,4 +1677,5 @@ insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,
 values(historico_status_vivienda_seq.nextval, to_date('03/02/2020','dd/mm/yyyy'),2,40);
 
 --historico vacacion
+
 commit; 

@@ -226,7 +226,7 @@ Prompt Creando tabla vivienda_vacacion_espera
 create table vivienda_vacacion_espera(
   vivienda_vacacion_espera_id number(10,0) not null,
   enviado            number(1,0)           not null,
-  numero_celular     number(10, 0)         not null,
+  numero_celular     varchar2(10)         not null,
   usuario_id                               not null,
   vivienda_id                              not null,
   constraint vivienda_vacacion_espera_pk primary key (vivienda_vacacion_espera_id),
