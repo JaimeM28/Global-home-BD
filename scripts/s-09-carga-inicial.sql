@@ -227,26 +227,26 @@ insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, desc
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -23.3058194, -47.1367011, '10 Lyons Hill', 4, 'Penthouse con terraza y vista al mar', 0, 0, 1, to_date('20/08/2021','dd/mm/yyyy'), 6, 5);
 --RENTA 
 Prompt RENTA
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 55.0775116, 24.2604924, '95563 Sloan Crossing', 10, 'Casa con jardín zen y estanque', 1, 0, 0, to_date('09/01/2021','dd/mm/yyyy'), 3, 28);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 28.65638, 121.42076, '459 Anzinger Court', 2, 'Casa con acceso directo al lago', 1, 0, 0, to_date('12/12/2021','dd/mm/yyyy'), 4, 16);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -6.8008183, 107.1781769, '90 Harbort Crossing', 7, 'Duplex con piscina comunitaria', 1, 0, 0, to_date('01/09/2020','dd/mm/yyyy'), 3, 28);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 54.6567593, 32.1804491, '00070 Springs Plaza', 7, 'Chalet de lujo con cinco dormitorios', 1, 0, 0, to_date('28/12/2019','dd/mm/yyyy'), 4, 21);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 49.3304143, 17.2726367, '284 Bultman Crossing', 18, 'Chalet de lujo con cinco dormitorios', 1, 0, 0, to_date('26/09/2020','dd/mm/yyyy'), 4, 32);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 35.8939566, 117.9249002, '5380 5th Alley', 19, 'Casa rústica con chimenea', 1, 0, 0, to_date('13/05/2019','dd/mm/yyyy'), 3, 34);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -34.4765431, -58.7226377, '3375 Harbort Way', 14, 'Apartamento acogedor cerca de la playa', 1, 0, 0, to_date('25/07/2022','dd/mm/yyyy'), 4, 37);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 30.04952, 101.96231, '0 Bunker Hill Lane', 10, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('16/03/2023','dd/mm/yyyy'), 3, 20);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 42.4782102, 78.3955986, '07656 Heath Lane', 19, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('13/11/2019','dd/mm/yyyy'), 4, 40);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -5.0938488, -81.0962172, '1346 Graedel Way', 11, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('01/08/2021','dd/mm/yyyy'), 4, 40);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 22.54921, 114.103143, '557 Blackbird Court', 10, 'Chalet en zona montañosa', 1, 0, 0, to_date('01/02/2019','dd/mm/yyyy'), 3, 29);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -25.4809333, -64.9751483, '9 Northridge Way', 7, 'Villa con jardín y garaje', 1, 0, 0, to_date('25/03/2023','dd/mm/yyyy'), 3, 20);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -14.8518869, -66.7486446, '14 Eggendart Avenue', 15, 'Casa rústica con chimenea', 1, 0, 0, to_date('16/08/2020','dd/mm/yyyy'), 4, 7);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 22.354385, 110.947043, '592 Beilfuss Park', 7, 'Chalet de lujo con cinco dormitorios', 1, 0, 0, to_date('07/08/2020','dd/mm/yyyy'), 3, 3);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 40.3984011, -8.7050402, '7573 1st Junction', 15, 'Apartamento con cocina equipada y parking', 1, 0, 0, to_date('29/05/2020','dd/mm/yyyy'), 3, 38);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -7.666671, 111.8359916, '993 Corscot Alley', 19, 'Villa con jardín y garaje', 1, 0, 0, to_date('04/09/2021','dd/mm/yyyy'), 3, 9);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 41.3458989, 19.5657349, '0 Charing Cross Trail', 13, 'Residencia con patio y barbacoa', 1, 0, 0, to_date('25/01/2019','dd/mm/yyyy'), 3, 17);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 26.3358903, 127.875104, '07409 Oxford Circle', 18, 'Casa con acceso directo al lago', 1, 0, 0, to_date('23/12/2018','dd/mm/yyyy'), 3, 21);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 43.7041519, 43.3264539, '9931 Shelley Road', 4, 'Casa con jardín zen y estanque', 1, 0, 0, to_date('08/09/2021','dd/mm/yyyy'), 3, 39);
-insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -143.7041519, -33.432524, '314 Lomas Grande', 4, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('03/02/2020','dd/mm/yyyy'), 3, 1);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 55.0775116, 24.2604924, '95563 Sloan Crossing', 10, 'Casa con jardín zen y estanque', 1, 0, 0, to_date('09/01/2021','dd/mm/yyyy'), 1, 28);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 28.65638, 121.42076, '459 Anzinger Court', 2, 'Casa con acceso directo al lago', 1, 0, 0, to_date('12/12/2021','dd/mm/yyyy'), 1, 16);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -6.8008183, 107.1781769, '90 Harbort Crossing', 7, 'Duplex con piscina comunitaria', 1, 0, 0, to_date('01/09/2020','dd/mm/yyyy'), 2, 28);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 54.6567593, 32.1804491, '00070 Springs Plaza', 7, 'Chalet de lujo con cinco dormitorios', 1, 0, 0, to_date('28/12/2023','dd/mm/yyyy'), 6, 21);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 49.3304143, 17.2726367, '284 Bultman Crossing', 18, 'Chalet de lujo con cinco dormitorios', 1, 0, 0, to_date('26/09/2020','dd/mm/yyyy'), 1, 32);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 35.8939566, 117.9249002, '5380 5th Alley', 19, 'Casa rústica con chimenea', 1, 0, 0, to_date('13/07/2021','dd/mm/yyyy'), 2, 34);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -34.4765431, -58.7226377, '3375 Harbort Way', 14, 'Apartamento acogedor cerca de la playa', 1, 0, 0, to_date('25/07/2022','dd/mm/yyyy'), 2, 37);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 30.04952, 101.96231, '0 Bunker Hill Lane', 10, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('16/03/2023','dd/mm/yyyy'), 1, 20);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 42.4782102, 78.3955986, '07656 Heath Lane', 19, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('13/11/2022','dd/mm/yyyy'), 2, 40);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -5.0938488, -81.0962172, '1346 Graedel Way', 11, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('01/08/2021','dd/mm/yyyy'), 2, 40);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 22.54921, 114.103143, '557 Blackbird Court', 10, 'Chalet en zona montañosa', 1, 0, 0, to_date('01/02/2022','dd/mm/yyyy'), 6, 29);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -25.4809333, -64.9751483, '9 Northridge Way', 7, 'Villa con jardín y garaje', 1, 0, 0, to_date('25/03/2023','dd/mm/yyyy'), 1, 20);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -14.8518869, -66.7486446, '14 Eggendart Avenue', 15, 'Casa rústica con chimenea', 1, 0, 0, to_date('16/08/2023','dd/mm/yyyy'), 2, 7);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 22.354385, 110.947043, '592 Beilfuss Park', 7, 'Chalet de lujo con cinco dormitorios', 1, 0, 0, to_date('07/08/2020','dd/mm/yyyy'), 1, 3);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 40.3984011, -8.7050402, '7573 1st Junction', 15, 'Apartamento con cocina equipada y parking', 1, 0, 0, to_date('29/05/2020','dd/mm/yyyy'), 1, 38);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -7.666671, 111.8359916, '993 Corscot Alley', 19, 'Villa con jardín y garaje', 1, 0, 0, to_date('04/09/2021','dd/mm/yyyy'), 1, 9);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 41.3458989, 19.5657349, '0 Charing Cross Trail', 13, 'Residencia con patio y barbacoa', 1, 0, 0, to_date('25/01/2020','dd/mm/yyyy'), 2, 17);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 26.3358903, 127.875104, '07409 Oxford Circle', 18, 'Casa con acceso directo al lago', 1, 0, 0, to_date('14/07/2021','dd/mm/yyyy'), 2, 21);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 43.7041519, 43.3264539, '9931 Shelley Road', 4, 'Casa con jardín zen y estanque', 1, 0, 0, to_date('08/09/2021','dd/mm/yyyy'), 6, 39);
+insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, -143.7041519, -33.432524, '314 Lomas Grande', 4, 'Casa familiar con cuatro habitaciones', 1, 0, 0, to_date('03/02/2020','dd/mm/yyyy'), 2, 1);
 --VACACION
 Prompt VACACION
 insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) values (vivienda_seq.nextval, 10.3827887, -9.3118282, '7 Eagle Crest Point', 3, 'Residencia con patio y barbacoa', 0, 1, 0, to_date('27/10/2023','dd/mm/yyyy'), 3, 6);
@@ -1278,26 +1278,41 @@ values (24, 13, to_date('16/06/2023', 'dd/mm/yyyy'), 8081.254, empty_blob());
 
 --Inserciones en la tabla contrato_renta
 Prompt Insertando datos en contrato_renta
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'qIX9N403', to_date('18/04/2022','dd/mm/yyyy'), empty_blob(), 62, 99);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '5PXsBKzz', to_date('30/06/2023','dd/mm/yyyy'), empty_blob(), 70, 82);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '5eGZxgNP', to_date('07/07/2023','dd/mm/yyyy'), empty_blob(), 64, 83);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'Mxp8H9k9', to_date('12/02/2022','dd/mm/yyyy'), empty_blob(), 38, 83);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'l0awnyps', to_date('22/02/2023','dd/mm/yyyy'), empty_blob(), 23, 72);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '9xO358jU', to_date('26/12/2022','dd/mm/yyyy'), empty_blob(), 29, 60);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '5IbRTw9F', to_date('08/08/2022','dd/mm/yyyy'), empty_blob(), 33, 68);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'V2ozA1K3', to_date('05/08/2024','dd/mm/yyyy'), empty_blob(), 40, 66);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'eCz4x5x8', to_date('16/05/2024','dd/mm/yyyy'), empty_blob(), 26, 52);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'Cfwo27tA', to_date('18/02/2024','dd/mm/yyyy'), empty_blob(), 37, 89);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'sp2okF3a', to_date('21/02/2022','dd/mm/yyyy'), empty_blob(), 63, 68);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '6YRo8yHo', to_date('06/04/2022','dd/mm/yyyy'), empty_blob(), 79, 81);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, '48B67JO8', to_date('26/12/2021','dd/mm/yyyy'), empty_blob(), 80, 87);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'wbV8X2Nj', to_date('24/09/2022','dd/mm/yyyy'), empty_blob(), 76, 81);
-insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) values (contrato_renta_seq.nextval, 'tKU5skel', to_date('25/09/2023','dd/mm/yyyy'), empty_blob(), 30, 64);
-
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'qIX9N403', to_date('18/04/2022','dd/mm/yyyy'), empty_blob(), 62, 99);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, '5PXsBKzz', to_date('30/06/2023','dd/mm/yyyy'), empty_blob(), 70, 82);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, '5eGZxgNP', to_date('07/07/2023','dd/mm/yyyy'), empty_blob(), 64, 83);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'Mxp8H9k9', to_date('12/02/2022','dd/mm/yyyy'), empty_blob(), 38, 83);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'l0awnyps', to_date('22/02/2023','dd/mm/yyyy'), empty_blob(), 23, 72);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, '9xO358jU', to_date('26/12/2022','dd/mm/yyyy'), empty_blob(), 29, 60);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, '5IbRTw9F', to_date('08/08/2022','dd/mm/yyyy'), empty_blob(), 33, 68);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'V2ozA1K3', to_date('05/08/2024','dd/mm/yyyy'), empty_blob(), 40, 66);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'eCz4x5x8', to_date('16/05/2024','dd/mm/yyyy'), empty_blob(), 26, 52);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'Cfwo27tA', to_date('18/02/2024','dd/mm/yyyy'), empty_blob(), 37, 89);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'sp2okF3a', to_date('21/02/2022','dd/mm/yyyy'), empty_blob(), 27, 68);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, '6YRo8yHo', to_date('06/04/2022','dd/mm/yyyy'), empty_blob(), 79, 81);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, '48B67JO8', to_date('26/12/2021','dd/mm/yyyy'), empty_blob(), 80, 87);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'wbV8X2Nj', to_date('24/09/2022','dd/mm/yyyy'), empty_blob(), 76, 81);
+insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
+values (contrato_renta_seq.nextval, 'tKU5skel', to_date('25/09/2023','dd/mm/yyyy'), empty_blob(), 30, 64);
 
 
 --Inserciones en la tabla historico_status_vivienda
 Prompt Insertando datos en historico_status_vivienda
+--historico venta
 insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
 values(historico_status_vivienda_seq.nextval, to_date('23/10/2021','dd/mm/yyyy'),4,1);
 insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
@@ -1349,8 +1364,71 @@ values(historico_status_vivienda_seq.nextval, to_date('23/02/2018','dd/mm/yyyy')
 insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
 values(historico_status_vivienda_seq.nextval, to_date('20/08/2021','dd/mm/yyyy'),6,20);
 
+--historico renta
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('09/01/2021','dd/mm/yyyy'),1,21);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('12/12/2021','dd/mm/yyyy'),1,22);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('15/02/2021','dd/mm/yyyy'),1,23);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('01/09/2020','dd/mm/yyyy'),2,23);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('28/12/2019','dd/mm/yyyy'),1,24);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('28/12/2023','dd/mm/yyyy'),6,24);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('26/09/2020','dd/mm/yyyy'),1,25);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('13/05/2019','dd/mm/yyyy'),1,26);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('13/07/2021','dd/mm/yyyy'),2,26);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('25/09/2020','dd/mm/yyyy'),1,27);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('25/07/2022','dd/mm/yyyy'),2,27);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('16/03/2023','dd/mm/yyyy'),1,28);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('28/04/2020','dd/mm/yyyy'),1,29);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('23/11/2022','dd/mm/yyyy'),2,29);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('24/07/2019','dd/mm/yyyy'),1,30);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('01/08/2021','dd/mm/yyyy'),2,30);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('11/02/2020','dd/mm/yyyy'),1,31);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('01/02/2022','dd/mm/yyyy'),6,31);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('25/03/2023','dd/mm/yyyy'),1,32);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('06/05/2020','dd/mm/yyyy'),1,33);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('16/08/2019','dd/mm/yyyy'),2,33);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('07/08/2020','dd/mm/yyyy'),1,34);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('29/05/2020','dd/mm/yyyy'),1,35);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('04/09/2021','dd/mm/yyyy'),1,36);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('03/03/2019','dd/mm/yyyy'),1,37);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('25/01/2020','dd/mm/yyyy'),2,37);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('23/12/2018','dd/mm/yyyy'),1,38);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('14/07/2021','dd/mm/yyyy'),2,38);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('20/11/2019','dd/mm/yyyy'),1,39);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('08/09/2021','dd/mm/yyyy'),6,39);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('11/05/2018','dd/mm/yyyy'),1,40);
+insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
+values(historico_status_vivienda_seq.nextval, to_date('03/02/2020','dd/mm/yyyy'),2,40);
 
-
-  
 
 commit; 
