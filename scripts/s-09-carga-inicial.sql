@@ -1372,6 +1372,33 @@ values (alquiler_seq.nextval, '6c2zT7qn', to_date('24/11/2022','dd/mm/yyyy'), 26
 insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
 values (alquiler_seq.nextval, '4C6qE2fN', to_date('28/09/2021','dd/mm/yyyy'), 25, 78, 73);
 
+
+--Inserciones en la tabla tarjeta_credito
+Prompt Insertando datos en tarjeta_credito
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (53, '5048375081262726', 7, 39, '5652');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (90, '5048378006673738', 7, 40, '3611');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (58, '5048376708714123', 10, 36, '1957');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (77, '5108750574877486', 5, 10, '6668');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (49, '5048377672629750', 10, 10, '4223');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (83, '5048375239315962', 10, 14, '1062');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (78, '5048375611646299', 11, 18, '2982');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (97, '5048377307371703', 1, 36, '7825');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (68, '5048370964695696', 9, 34, '6410');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (76, '5108757819880878', 6, 18, '2720');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (92, '5048373660573308', 12, 33, '5338');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (54, '5048374001328485', 5, 25, '1930');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (93, '5108751985337367', 4, 12, '7939');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (56, '5108759452147649', 8, 24, '7513');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (91, '5048373571065626', 9, 26, '8863');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (50, '5048371091376713', 5, 38, '1531');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (60, '5108756702206175', 12, 11, '1575');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (52, '5048377776917465', 1, 30, '7096');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (51, '5048373258665102', 5, 27, '5118');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (64, '5048373401453711', 1, 24, '9963');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (95, '5108757414340328', 6, 35, '3807');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (89, '5108753223084579', 12, 35, '2938');
+insert into tarjeta_credito (usuario_id, numero_tarjeta, mes_expiracion, anio_expiracion, numero_seguridad) values (73, '5108754672566165', 6, 13, '5406');
+
 --Inserciones en la tabla alquiler_calificacion
 Prompt Insertando datos en alquiler_calificacion
 insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
