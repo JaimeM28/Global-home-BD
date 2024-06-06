@@ -1309,6 +1309,131 @@ values (contrato_renta_seq.nextval, 'wbV8X2Nj', to_date('24/09/2022','dd/mm/yyyy
 insert into contrato_renta (contrato_renta_id, folio, fecha, clausulas_firmas_pdf, vivienda_id, usuario_id) 
 values (contrato_renta_seq.nextval, 'tKU5skel', to_date('25/09/2023','dd/mm/yyyy'), empty_blob(), 30, 64);
 
+--Inserciones en la tabla alquiler
+Prompt Insertando datos en alquiler
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'zAomsZ7I', to_date('27/07/2023','dd/mm/yyyy'), 11, 44, 53);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'rn8MVK0t', to_date('02/03/2024','dd/mm/yyyy'), 9, 74, 90);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 't10223pD', to_date('16/12/2022','dd/mm/yyyy'), 7, 61, 58);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'iSqUix62', to_date('02/12/2023','dd/mm/yyyy'), 14, 86, 77);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'km8BAuaI', to_date('04/12/2022','dd/mm/yyyy'), 21, 42, 49);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '2OSc1tMX', to_date('23/03/2022','dd/mm/yyyy'), 10, 99, 83);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'WHi8pUSX', to_date('08/04/2022','dd/mm/yyyy'), 7, 69, 78);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'LD5R8Hu3', to_date('07/12/2022','dd/mm/yyyy'), 8, 58, 97);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'OYk7sDSv', to_date('03/10/2023','dd/mm/yyyy'), 11, 59, 64);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '5M68IfMT', to_date('13/03/2023','dd/mm/yyyy'), 20, 95, 68);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'tVCwnF9n', to_date('13/08/2022','dd/mm/yyyy'), 29, 87, 76);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '3cnti1nn', to_date('03/05/2022','dd/mm/yyyy'), 11, 72, 50);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'Dlc10sy8', to_date('10/05/2024','dd/mm/yyyy'), 29, 49, 92);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '0Y9U53s8', to_date('03/12/2021','dd/mm/yyyy'), 10, 82, 54);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'ER4aAJF0', to_date('13/06/2022','dd/mm/yyyy'), 22, 86, 93);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'sq6qi9yr', to_date('27/03/2022','dd/mm/yyyy'), 22, 51, 56);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'aLR98rx5', to_date('09/08/2021','dd/mm/yyyy'), 27, 47, 83);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'aRe9hJb7', to_date('23/07/2022','dd/mm/yyyy'), 12, 85, 91);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'FM199k1H', to_date('14/06/2022','dd/mm/yyyy'), 18, 56, 49);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '4xFzPfz5', to_date('05/01/2024','dd/mm/yyyy'), 29, 92, 50);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'u34bWi4V', to_date('28/06/2023','dd/mm/yyyy'), 24, 99, 60);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'Qb9826nV', to_date('17/05/2023','dd/mm/yyyy'), 18, 83, 51);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'ORRk04H1', to_date('15/05/2023','dd/mm/yyyy'), 8, 47, 52);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'LhbVV0U5', to_date('29/09/2023','dd/mm/yyyy'), 14, 92, 50);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'QVyarDDD', to_date('12/06/2021','dd/mm/yyyy'), 17, 61, 51);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '4hD8D1ho', to_date('23/10/2021','dd/mm/yyyy'), 15, 98, 64);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '5Kf52fEA', to_date('13/03/2023','dd/mm/yyyy'), 23, 68, 95);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, 'Ieu42gQQ', to_date('20/10/2023','dd/mm/yyyy'), 23, 81, 89);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '6c2zT7qn', to_date('24/11/2022','dd/mm/yyyy'), 26, 80, 97);
+insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id) 
+values (alquiler_seq.nextval, '4C6qE2fN', to_date('28/09/2021','dd/mm/yyyy'), 25, 78, 73);
+
+--Inserciones en la tabla alquiler_calificacion
+Prompt Insertando datos en alquiler_calificacion
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('27/07/2023', 'dd/mm/yyyy') + 11, 'El lugar estaba limpio y bien mantenido.', 53, 1);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 3, to_date('02/03/2024', 'dd/mm/yyyy') + 9, 'El lugar estaba bien, pero podría haber sido más limpio.', 90, 2);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('16/12/2022', 'dd/mm/yyyy') + 7, 'Excelente lugar para vacaciones, muy recomendable.', 58, 3);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('02/12/2023', 'dd/mm/yyyy') + 14, 'Buena experiencia, lugar cómodo y bien equipado.', 77, 4);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('04/12/2022', 'dd/mm/yyyy') + 21, 'Excelente atención del propietario, lugar perfecto.', 49, 5);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('23/03/2022', 'dd/mm/yyyy') + 10, 'Buena ubicación, el lugar estaba limpio y ordenado.', 83, 6);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('08/04/2022', 'dd/mm/yyyy') + 7, 'Gran lugar para relajarse, todo excelente.', 78, 7);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 3, to_date('07/12/2022', 'dd/mm/yyyy') + 8, 'Regular, faltaba mantenimiento en algunas áreas.', 97, 8);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('03/10/2023', 'dd/mm/yyyy') + 11, 'Buena experiencia en general, recomendado.', 64, 9);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('13/03/2023', 'dd/mm/yyyy') + 20, 'Lugar perfecto para vacaciones, todo excelente.', 68, 10);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('13/08/2022', 'dd/mm/yyyy') + 29, 'Buena relación calidad-precio, bien equipado.', 76, 11);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 3, to_date('03/05/2022', 'dd/mm/yyyy') + 11, 'Regular, algunas cosas necesitaban mantenimiento.', 50, 12);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('10/05/2024', 'dd/mm/yyyy') + 29, 'Excelente lugar, todo perfecto durante la estancia.', 92, 13);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('03/12/2021', 'dd/mm/yyyy') + 10, 'Buen lugar para vacaciones, recomendado.', 54, 14);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('13/06/2022', 'dd/mm/yyyy') + 22, 'Muy buena experiencia, todo en orden.', 93, 15);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('27/03/2022', 'dd/mm/yyyy') + 22, 'Buena ubicación y comodidades, recomendado.', 56, 16);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('09/08/2021', 'dd/mm/yyyy') + 27, 'Excelente lugar para vacaciones, todo muy bien.', 83, 17);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('23/07/2022', 'dd/mm/yyyy') + 12, 'Buena experiencia en general, recomendado.', 91, 18);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('14/06/2022', 'dd/mm/yyyy') + 18, 'Todo excelente durante la estancia.', 49, 19);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('05/01/2024', 'dd/mm/yyyy') + 29, 'Buen lugar, todo en orden durante la estancia.', 50, 20);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('28/06/2023', 'dd/mm/yyyy') + 24, 'Lugar muy cómodo y bien ubicado, excelente estancia.', 60, 21);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('17/05/2023', 'dd/mm/yyyy') + 18, 'Buen lugar para vacacionar, recomendado.', 51, 22);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('15/05/2023', 'dd/mm/yyyy') + 8, 'Excelente lugar para descansar, todo perfecto.', 52, 23);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('29/09/2023', 'dd/mm/yyyy') + 14, 'Buena ubicación y servicios, recomendado.', 50, 24);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('12/06/2021', 'dd/mm/yyyy') + 17, 'Muy buen lugar para vacaciones.', 51, 25);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('23/10/2021', 'dd/mm/yyyy') + 15, 'Buena ubicación y cómoda estancia.', 64, 26);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('13/03/2023', 'dd/mm/yyyy') + 23, 'Excelente lugar para vacaciones.', 95, 27);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 4, to_date('20/10/2023', 'dd/mm/yyyy') + 23, 'Buena relación calidad-precio, bien equipado.', 89, 28);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 3, to_date('24/11/2022', 'dd/mm/yyyy') + 26, 'Regular, algunas cosas necesitaban mantenimiento.', 97, 29);
+insert into alquiler_calificacion (alquiler_calificacion_id, calificacion, fecha, descripcion, usuario_id, alquiler_id)
+values (alquiler_calificacion_seq.nextval, 5, to_date('28/09/2021', 'dd/mm/yyyy') + 25, 'Excelente atención del propietario, lugar perfecto.', 73, 30);
 
 --Inserciones en la tabla historico_status_vivienda
 Prompt Insertando datos en historico_status_vivienda
@@ -1430,5 +1555,5 @@ values(historico_status_vivienda_seq.nextval, to_date('11/05/2018','dd/mm/yyyy')
 insert into historico_status_vivienda(historico_status_vivienda_id,fecha_status,status_vivienda_id,vivienda_id)
 values(historico_status_vivienda_seq.nextval, to_date('03/02/2020','dd/mm/yyyy'),2,40);
 
-
+--historico vacacion
 commit; 
