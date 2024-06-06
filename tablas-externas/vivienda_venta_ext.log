@@ -158,3 +158,923 @@ Field Definitions for table VIVIENDA_VENTA_EXT
       Trim whitespace from left and right
 error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
 ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:08:51
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:08:51
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:09:22
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:09:22
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:09:57
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:09:57
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:10:50
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:10:50
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:11:44
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:11:44
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:14:01
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:14:01
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:15:44
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:15:44
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:46:53
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:46:53
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:47:12
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:47:12
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 13:58:39
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 13:58:39
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 14:35:39
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 14:35:39
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 14:37:46
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 14:37:46
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 14:41:54
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 14:41:54
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 14:44:26
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 14:44:26
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 14:48:27
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 14:48:27
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 14:56:44
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 14:56:44
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 14:57:20
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 14:57:20
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 14:59:38
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 14:59:38
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 15:00:06
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 15:00:06
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 15:00:17
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 15:00:17
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 15:18:29
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 15:18:29
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 15:58:02
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 15:58:02
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 06/06/24 15:59:13
+
+Total Number of Files=1
+
+Data File: vivienda_venta_ext.csv
+
+Log File: vivienda_venta_ext.log
+
+
+
+ LOG file opened at 06/06/24 15:59:13
+
+Bad File: vivienda_venta_ext_bad.log
+
+Field Definitions for table VIVIENDA_VENTA_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    NUMERO_CATASTRAL                CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    FOLIO_ESCRITURA                 CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    DESCRIPCION                     CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LATITUD                         CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+    LONGITUD                        CHAR (255)
+      Terminated by ","
+      Trim whitespace from left and right
+error processing column LATITUD in row 1 for datafile /unam-bd/proyecto-final/tablas-externas/vivienda_venta_ext.csv
+ORA-01722: invalid number

@@ -13,6 +13,7 @@ grant select on vivienda to md_proy_invitado;
 grant select on vivienda_renta to md_proy_invitado;
 grant select on vivienda_venta to md_proy_invitado;
 grant select on vivienda_vacacion to md_proy_invitado;
+grant select on vivienda_tipo_servicio to md_proy_invitado;
 
 Prompt Iniciando con md_proy_invitado
 connect md_proy_invitado/invitado
@@ -22,6 +23,7 @@ create or replace synonym vivienda for md_proy_admin.vivienda;
 create or replace synonym vivienda_renta for md_proy_admin.vivienda_renta;
 create or replace synonym vivienda_venta for md_proy_admin.vivienda_venta;
 create or replace synonym vivienda_vacacion for md_proy_admin.vivienda_vacacion;
+create or replace synonym vivienda_tipo_servicio for md_proy_admin.vivienda_tipo_servicio;
 
 disconnect
 

@@ -33,4 +33,6 @@ create or replace view v_vivienda_venta_servicio as
     vv.numero_catastral, vv.precio
 ;
 
+grant select on v_vivienda_venta_servicio to md_proy_invitado;
+
 
