@@ -1,5 +1,5 @@
 --@Autor(es):       Jaime Manuel Miranda Serrano y Diego Adrian Del Razo Sanchez
---@Fecha creación:  03/06/2024
+--@Fecha creación:  06/06/2024
 --@Descripción:     Procedimiento para almacenar iconos en la tabla tipo servicio
 
 create or replace procedure insertar_icono_servicio(

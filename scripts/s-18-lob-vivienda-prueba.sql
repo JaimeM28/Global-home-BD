@@ -1,0 +1,3 @@
+--@Autor(es):       Jaime Manuel Miranda Serrano y Diego Adrian Del Razo Sanchez
+--@Fecha creación:  06/06/2024
+--@Descripción:     Prueba procedimiento para almacenar imagenes en la tabla vivienda_imagen

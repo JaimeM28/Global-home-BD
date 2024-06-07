@@ -1,6 +1,6 @@
 --@Autor(es):       Jaime Manuel Miranda Serrano y Diego Adrian Del Razo Sanchez
---@Fecha creación:  03/06/2024
---@Descripción:     Procedimiento para almacenar iamgenes en la tabla vivienda_imagen
+--@Fecha creación:  06/06/2024
+--@Descripción:     Procedimiento para almacenar imagenes en la tabla vivienda_imagen
 
 create or replace procedure insertar_imagen_vivienda(
   p_vivienda_id in number, p_numero_imagen in number,
