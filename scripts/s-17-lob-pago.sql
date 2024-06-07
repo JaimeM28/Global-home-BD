@@ -27,7 +27,7 @@ begin
 
     --Validando que el archivo exista en el directorio vivienda
     if dbms_lob.fileexists(v_bfile) != 1 then
-      raise_application_error(-20003, 'El archivo no existe en el directorio vivienda');
+      raise_application_error(-20003, 'El archivo no existe en el directorio pago');
     --Validando que el archivo este cerrado
     elsif dbms_lob.isopen(v_bfile) = 1 then
       raise_application_error(-20004, 'El archivo esta abierto');
