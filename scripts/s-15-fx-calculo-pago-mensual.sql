@@ -1,17 +1,18 @@
 --@Autor(es):       Jaime Manuel Miranda Serrano y Diego Adrian Del Razo Sanchez
 --@Fecha creación:  03/06/2024
---@Descripción:     Creacion de funciones
+--@Descripción:     Creando funcion calculo_pago_mensual
 
-CREATE OR REPLACE FUNCTION calcular_pago_mensual (
-  p_vivienda_id IN NUMBER,
-  p_mensualidades IN NUMBER
+Prompt Creando funcion calculo_pago_mensual
+create or replace function calcular_pago_mensual (
+  p_vivienda_id in number,
+  p_mensualidades in number
 ) 
-RETURN NUMBER
-IS
-  v_importe_total NUMBER;
-  v_pago_mensual NUMBER;
-  v_count NUMBER;
-BEGIN
+return number
+is
+  v_importe_total number;
+  v_pago_mensual number;
+  v_count number;
+begin
   --Verificando existencia de vivienda
   select count(*) into v_count
   from vivienda_venta
@@ -24,12 +25,12 @@ BEGIN
   else
     -- Recuperar el importe total de la vivienda
     select precio into v_importe_total
-    FROM vivienda_venta
-    WHERE vivienda_id = p_vivienda_id;
+    from vivienda_venta
+    where vivienda_id = p_vivienda_id;
     --Calcular el pago por mes
     v_pago_mensual := v_importe_total / p_mensualidades;
     -- Retornar el pago por mes
-    RETURN v_pago_mensual;
+    return trunc(v_pago_mensual,2);
   end if;
 end calcular_pago_mensual;
 /
