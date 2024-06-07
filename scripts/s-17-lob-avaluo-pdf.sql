@@ -2,6 +2,7 @@
 --@Fecha creación:  06/06/2024
 --@Descripción:     Procedimiento para almacenar pdf en la tabla vivienda_venta
 
+Prompt Creando procedimiento insertar_avaluo_vivienda
 create or replace procedure insertar_avaluo_vivienda(
   p_vivienda_id in number, p_nombre_archivo in varchar2 
 )

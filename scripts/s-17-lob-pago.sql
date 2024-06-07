@@ -2,6 +2,7 @@
 --@Fecha creación:  06/06/2024
 --@Descripción:     Procedimiento para almacenar los pdf de deposito en pago
 
+Prompt Creando procedimiento insertar_deposito_pago
 create or replace procedure insertar_deposito_pago(
   p_vivienda_id in number, p_mensualidad in number,
   p_nombre_archivo in varchar2

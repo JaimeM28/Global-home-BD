@@ -35,6 +35,7 @@ end;
 Prompt Iniciando con md_proy_admin
 connect md_proy_admin/admin 
 
+--DDL
 @s-02-entidades.sql
 @s-03-tablas-temporales.sql
 @s-04-tablas-externas.sql
@@ -42,6 +43,31 @@ connect md_proy_admin/admin
 @s-06-indices.sql
 @s-07-sinonimos.sql
 @s-08-vistas.sql
+
+--DML
 @s-09-carga-inicial.sql
 @s-10-consultas.sql
+
+--Triggers
+
+--Funciones
+@s-15-fx-calculo-alquiler.sql
+@s-15-fx-calculo-pago-mensual.sql
+--prueba fx
+@s-16-fx-calculo-alquiler-prueba.sql
+@s-16-fx-calculo-pago-mensual-prueba.sql
+--falta 1
+
+--lob y procedimientos
+@s-17-lob-avaluo-pdf.sql
+@s-17-lob-icono.sql
+@s-17-lob-pago.sql
+@s-17-lob-vivienda.sql
+
+--prueba proc-lob
+@s-18-lob-avaluo-pdf-prueba.sql
+@s-18-lob-icono-prueba.sql
+@s-18-lob-pago-prueba.sql
+@s-18-lob-vivienda-prueba.sql
+
 disconnect

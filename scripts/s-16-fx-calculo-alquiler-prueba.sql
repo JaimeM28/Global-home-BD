@@ -2,6 +2,9 @@
 --@Fecha creación:  06/06/2024
 --@Descripción:     Prueba funcion calculo_alquiler
 
+
+set serveroutput on
+Prompt Pruebas funcion calculo_alquiler 
 Prompt =======================================
 Prompt Prueba 1.
 prompt funcion con con datos correctos

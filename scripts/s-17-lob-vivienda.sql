@@ -2,6 +2,7 @@
 --@Fecha creación:  06/06/2024
 --@Descripción:     Procedimiento para almacenar imagenes en la tabla vivienda_imagen
 
+Prompt Creando procedimiento insertar_imagen_vivienda
 create or replace procedure insertar_imagen_vivienda(
   p_vivienda_id in number, p_numero_imagen in number,
   p_nombre_archivo in varchar2

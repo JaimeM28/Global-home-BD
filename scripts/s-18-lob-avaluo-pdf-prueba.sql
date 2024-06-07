@@ -3,6 +3,7 @@
 --@Descripción:     Prueba procedimiento para almacenar pdf en la tabla vivienda_venta
 
 set serveroutput on 
+Prompt Pruebas procedimiento insertar_avaluo_vivienda 
 Prompt =======================================
 Prompt Prueba 1.
 prompt Procedimiento con datos correctos

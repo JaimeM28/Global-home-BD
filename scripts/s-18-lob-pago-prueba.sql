@@ -3,6 +3,7 @@
 --@Descripción:     Prueba procedimiento para almacenar los pdf de deposito en pago
 
 set serveroutput on 
+Prompt Pruebas procedimiento insertar_deposito_pago 
 Prompt =======================================
 Prompt Prueba 1.
 prompt Procedimiento con datos correctos

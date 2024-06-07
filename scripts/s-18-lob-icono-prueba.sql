@@ -3,6 +3,7 @@
 --@Descripción:     Prueba procedimiento para almacenar iconos en la tabla tipo servicio
 
 set serveroutput on 
+Prompt Pruebas procedimiento insertar_icono_servicio 
 Prompt =======================================
 Prompt Prueba 1.
 prompt Procedimiento con datos correctos

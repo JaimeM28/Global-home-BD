@@ -2,6 +2,8 @@
 --@Fecha creación:  03/06/2024
 --@Descripción:     Prueba funcion calculo_pago_mensual
 
+set serveroutput on 
+Prompt Pruebas funcion calculo_pago_mensual 
 Prompt =======================================
 Prompt Prueba 1.
 prompt funcion con mensualidad erronea

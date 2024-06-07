@@ -2,6 +2,7 @@
 --@Fecha creación:  06/06/2024
 --@Descripción:     Procedimiento para almacenar iconos en la tabla tipo servicio
 
+Prompt Creando procedimiento insertar_icono_servicio
 create or replace procedure insertar_icono_servicio(
   p_tipo_servicio_id in number, p_nombre_archivo in varchar2 
 )
