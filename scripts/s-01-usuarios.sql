@@ -44,5 +44,10 @@ create or replace directory vivienda as '/unam-bd/proyecto-final/vivienda-imagen
 --otorgar permisos a md_pry_admin
 grant read,write on directory vivienda to md_proy_admin;
 
+prompt Creando un objeto tipo directory vivienda
+create or replace directory pago as '/unam-bd/proyecto-final/pago';
+--otorgar permisos a md_pry_admin
+grant read,write on directory pago to md_proy_admin;
+
 
 disconnect
