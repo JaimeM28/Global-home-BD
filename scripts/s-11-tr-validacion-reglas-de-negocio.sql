@@ -4,13 +4,14 @@
 --Este trigger se asegura de que la duración de un alquiler no supere los 30 días. 
 --Si se intenta insertar o actualizar un alquiler con una duración mayor, se lanza una excepción.
 
-CREATE OR REPLACE TRIGGER trg_check_alquiler_duration
-BEFORE INSERT OR UPDATE ON alquiler
-FOR EACH ROW
-BEGIN
-  IF :NEW.dias_ocupacion > 30 THEN
-    RAISE_APPLICATION_ERROR(-20001, 'La duración del alquiler no puede exceder los 30 días.');
-  END IF;
-END;
+create or replace trigger trg_check_alquiler_duration
+before insert or update on alquiler
+for each row
+begin
+  if :new.dias_ocupacion > 30 then
+    raise_application_error(-20001, 'la duración del alquiler no puede exceder los 30 días.');
+  end if;
+end;
 /
 show errors
+
