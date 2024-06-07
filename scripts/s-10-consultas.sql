@@ -139,6 +139,8 @@ Prompt Consulta 6 (vista)
 Prompt Iniciando con md_proy_invitado
 connect md_proy_invitado/invitado
 
+create or replace synonym v_vivienda_venta_servicio for md_proy_admin.v_vivienda_venta_servicio;
+
 set linesize window
 select vivienda_id,numero_catastral,latitud, longitud, precio, (
   select avg(precio)
@@ -162,7 +164,7 @@ set linesize window
 col vivienda_id format 99
 col direccion format a30
 col tipo_servicio_id format 99
-servicio_nombre format a20
+col servicio_nombre format a20
 
 select v.vivienda_id, v.direccion, t.tipo_servicio_id, 
   t.nombre as servicio_nombre

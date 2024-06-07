@@ -24,9 +24,25 @@ grant rol_admin to md_proy_admin;
 grant rol_invitado to md_proy_invitado;
 
 
-prompt Creando un objeto tipo directory
+prompt Creando un objeto tipo directory ext_dir
 create or replace directory ext_dir as '/unam-bd/proyecto-final/tablas-externas';
 --otorgar permisos a md_pry_admin
 grant read,write on directory ext_dir to md_proy_admin;
+
+prompt Creando un objeto tipo directory iconos
+create or replace directory iconos as '/unam-bd/proyecto-final/iconos';
+--otorgar permisos a md_pry_admin
+grant read,write on directory iconos to md_proy_admin;
+
+prompt Creando un objeto tipo directory avaluo_pdf
+create or replace directory avaluo_pdf as '/unam-bd/proyecto-final/avaluo-pdf';
+--otorgar permisos a md_pry_admin
+grant read,write on directory avaluo_pdf to md_proy_admin;
+
+prompt Creando un objeto tipo directory vivienda
+create or replace directory vivienda as '/unam-bd/proyecto-final/vivienda-imagen';
+--otorgar permisos a md_pry_admin
+grant read,write on directory vivienda to md_proy_admin;
+
 
 disconnect
