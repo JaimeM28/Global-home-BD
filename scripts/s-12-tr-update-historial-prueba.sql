@@ -14,7 +14,7 @@ delete from alquiler;
 -- Crear datos de prueba
 prompt Creando datos de prueba en la tabla alquiler...
 insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id)
-values (1, 'ALQ-001', sysdate, 10, 1, 1); -- Sustituye con IDs válidos;
+values (1, 'ALQ-001', sysdate, 10, 1, 1); -- Sustituye con IDs válidos
 
 prompt =======================================
 prompt Prueba 1.
@@ -28,7 +28,7 @@ begin
     -- Insertar un nuevo registro en la tabla alquiler
     insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id)
     values (2, 'ALQ-002', sysdate + 1, 5, 1, 2); -- Sustituye con IDs válidos
-    commit;
+    
 
     -- Verificar si el trigger ha insertado en la tabla historial
     select usuario_id, vivienda_id, fecha_alquiler
@@ -62,7 +62,7 @@ begin
     update alquiler
     set dias_ocupacion = 7
     where alquiler_id = 1; -- Sustituye con un ID válido
-    commit;
+    
 
     -- Verificar si el trigger ha insertado en la tabla historial
     select usuario_id, vivienda_id, fecha_alquiler
