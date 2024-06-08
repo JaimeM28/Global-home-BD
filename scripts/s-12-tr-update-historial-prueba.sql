@@ -14,8 +14,7 @@ delete from alquiler;
 -- Crear datos de prueba
 prompt Creando datos de prueba en la tabla alquiler...
 insert into alquiler (alquiler_id, folio, fecha_inicio, dias_ocupacion, vivienda_id, usuario_id)
-values (1, 'ALQ-001', sysdate, 10, 1, 1); -- Sustituye con IDs válidos
-commit;
+values (1, 'ALQ-001', sysdate, 10, 1, 1); -- Sustituye con IDs válidos;
 
 prompt =======================================
 prompt Prueba 1.
