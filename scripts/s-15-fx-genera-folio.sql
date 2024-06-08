@@ -27,6 +27,8 @@ begin
     -- generar el folio basado en el tipo de vivienda
     if v_vivienda_es_renta = 1 and v_vivienda_es_vacacion = 1 then
         v_folio_gen := 'RENT-VAC-' || p_vivienda_id || '-' || to_char(v_fecha_status, 'YYYYMMDD');
+    elsif v_vivienda_es_vacacion = 1 and v_vivienda_es_venta = 1 then
+        v_folio_gen := 'SALE-VAC-' || p_vivienda_id || '-' || to_char(v_fecha_status, 'YYYYMMDD');
     elsif v_vivienda_es_vacacion = 1 then
         v_folio_gen := 'VAC-' || p_vivienda_id || '-' || to_char(v_fecha_status, 'YYYYMMDD');
     elsif v_vivienda_es_renta = 1 then 
