@@ -10,7 +10,6 @@ set serveroutput on
 prompt Limpiando tablas...
 delete from usuario_vivienda_historial;
 delete from alquiler;
-commit;
 
 -- Crear datos de prueba
 prompt Creando datos de prueba en la tabla alquiler...
