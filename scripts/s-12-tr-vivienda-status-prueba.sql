@@ -2,6 +2,7 @@
 --@Fecha creación: 07/06/2024
 --@Descripción:  Prueba de trigger tr_vivienda_status
 
+Prompt Pruebas trigger tr_vivienda
 set serveroutput on
 Prompt =======================================
 Prompt Prueba 1.
@@ -26,6 +27,7 @@ begin
   end if;
 end;
 /
+
 Prompt =======================================
 Prompt Prueba 2.
 prompt Insertando un registro no valido (vivienda con status VENDIDA)
@@ -37,6 +39,9 @@ declare
 begin
   insert into vivienda (vivienda_id, latitud, longitud, direccion, capacidad, descripcion, es_renta, es_vacacion, es_venta, fecha_status, status_vivienda_id, usuario_id) 
   values (vivienda_seq.nextval, 7.9187344, 125.3297787, '2 Bowman Circle', 18, 'Penthouse con terraza y vista al mar', 0, 0, 1, to_date('11/12/2021','dd/mm/yyyy'), 5, 20);
+  raise_application_error(-20006,
+		' ERROR: registro se inserto'||
+		' El trigger no está funcionando correctamente');
 exception
   when others then 
   v_codigo := sqlcode;
@@ -83,7 +88,6 @@ exception
 end;
 /
 
-
 Prompt =======================================
 Prompt Prueba 4.
 prompt Actualizar el status a VENDIDA de una vivienda que si tiene dueño,pero no pagos registrados 
@@ -102,7 +106,7 @@ set status_vivienda_id = 5
 where vivienda_id = 1;
 --Si se llega a este punto, significa que el trigger no esta funcionando
 raise_application_error(-20006,
-		' ERROR: vivienda no tiene dueño'||
+		' ERROR: vivienda no tiene pagos registrados'||
 		' El trigger no está funcionando correctamente');
 exception 
   when others then 
@@ -118,7 +122,6 @@ exception
   end if;
 end;
 /
-
 
 Prompt =======================================
 Prompt Prueba 5.
@@ -142,10 +145,6 @@ begin
   end if;
 end;
 /
-
-
-
-
 
 Prompt =======================================
 Prompt Prueba 6.
@@ -176,7 +175,6 @@ exception
   end if;
 end;
 /
-
 
 Prompt =======================================
 Prompt Prueba 7.

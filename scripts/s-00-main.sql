@@ -49,14 +49,26 @@ connect md_proy_admin/admin
 @s-10-consultas.sql
 
 --Triggers
+@s-11-tr-vivienda-status.sql
+@s-11-tr-calificacion.sql
+--prueba tr
+@s-12-tr-vivienda-status-prueba.sql
+@s-12-tr-calificacion-prueba.sql
+
+-- cursor con procedimiento
+@s-13-p-mensajes.sql
+
+--prueba
+@s-14-p-mensajes-prueba.sql
 
 --Funciones
 @s-15-fx-calculo-alquiler.sql
 @s-15-fx-calculo-pago-mensual.sql
+@s-15-fx-genera-folio.sql
 --prueba fx
 @s-16-fx-calculo-alquiler-prueba.sql
 @s-16-fx-calculo-pago-mensual-prueba.sql
---falta 1
+@s-16-fx-genera-folio-prueba.sql
 
 --lob y procedimientos
 @s-17-lob-avaluo-pdf.sql
@@ -69,5 +81,8 @@ connect md_proy_admin/admin
 @s-18-lob-icono-prueba.sql
 @s-18-lob-pago-prueba.sql
 @s-18-lob-vivienda-prueba.sql
+
+--resultados proyecto 
+@resultados-proyecto-final.sql
 
 disconnect

@@ -1,7 +1,7 @@
 --@Autor(es): Del Razo Sánchez Diego Adrián y Miranda Serrano Jaime Manuel
 --@Fecha creación: 05/06/2024
 --@Descripción: Esta funcion genera folios con base a lo registros de vivienda y usuario
-prompt creando bloque pl/sql para crear funcion f_genera_folio
+prompt creando funcion f_genera_folio
 
 create or replace function f_genera_folio(
     p_vivienda_id number
