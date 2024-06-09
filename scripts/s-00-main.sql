@@ -83,6 +83,6 @@ connect md_proy_admin/admin
 @s-18-lob-vivienda-prueba.sql
 
 --resultados proyecto 
-@resultados-proyecto-final.sql
+@resultados-proyecto-final.sql  
 
 disconnect
